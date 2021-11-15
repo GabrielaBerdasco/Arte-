@@ -1,18 +1,112 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
 }
 
 header ul li {
-  color: black;
   font-size: large;
   font-weight: 700;
 }
 
 #logo {
-  margin-left: 20px;
-  height: 120px;
-  width: 130px;
-  background-color: #ebe7e7;
+  height: 41px;
+  width: 85px;
+  left: 315px;
+  top: 19px;
+}
+
+#nosotros__presentación {
+  position: absolute;
+  width: 428px;
+  height: 320px;
+  left: 0px;
+  top: 120px;
+  background-color: #db504a;
+}
+
+#nosotros__imagen {
+  position: absolute;
+  width: 358px;
+  height: 264px;
+  left: 35px;
+  top: 488px;
+  background-color: #c4c4c4;
+}
+
+#nosotros__parrafo {
+  position: absolute;
+  width: 358px;
+  height: 176px;
+  left: 35px;
+  top: 776px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #333333;
+}
+
+#nosotros__recuadro {
+  position: absolute;
+  width: 427px;
+  height: 208px;
+  left: 0px;
+  top: 984px;
+  background-color: #f2f2f7;
+}
+
+#nosotros__quote {
+  position: absolute;
+  width: 358px;
+  height: 96px;
+  left: 35px;
+  top: 56px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 31px;
+  letter-spacing: 0.02em;
+  color: #333333;
+}
+
+#nosotros__imagen2 {
+  position: absolute;
+  width: 358px;
+  height: 264px;
+  left: 35px;
+  top: 1224px;
+  background-color: #c4c4c4;
+}
+
+#nosotros__parrafo2 {
+  position: absolute;
+  width: 358px;
+  height: 136px;
+  left: 35px;
+  top: 1512px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #333333;
+}
+
+#nosotros__botonProductos {
+  position: absolute;
+  width: 169px;
+  height: 32px;
+  left: 130px;
+  top: 1672px;
+  background-color: #414141;
+  color: #f2f2f7;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
 }
 /*# sourceMappingURL=style.css.map */
