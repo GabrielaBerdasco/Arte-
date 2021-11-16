@@ -39,6 +39,34 @@ header{
     left: 0px;
     top: 120px;
     background-color: $colorAcento;
+
+    #nosotros__presentación--enunciado{
+        position: absolute;
+        width: 357.52px;
+        height: 112px;
+        left: 35.48px;
+        top: 88px;
+
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 21px;
+        line-height: 29px;
+        letter-spacing: 0.02em;
+
+        color: #f2f2f7;
+    }
+
+    #nosotros__presentación--hr{
+        position: absolute;
+        width: 147.97px;
+        left: 35px;
+        top: 232px;
+
+        background-color: #f2f2f7;
+        border: 1px solid #f2f2f7;
+    }
+
 }
 
 #nosotros__imagen{
