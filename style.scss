@@ -1,5 +1,6 @@
-//Paleta de colores
+//Variables
 
+//Paleta de colores
 $colorPrincipal: #479db5;
 $colorSecundario: #747f82;
 $colorAcento: #db504a;
@@ -14,7 +15,7 @@ $colorComplementario2: #e3b505;
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   position: relative;
 }
@@ -31,108 +32,64 @@ header {
 footer {
   height: 374px;
   width: auto;
-
-  position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 2180px;
-  bottom: 0px;
+  margin-top: 48px;
+  padding: 16px 35px 13px 35px;
 
   background-color: #747f82;
   color: #f2f2f7;
-
   .footer__logo {
+    margin-bottom: 11px;
     width: 77px;
     height: 37px;
-
-    position: absolute;
-    left: 8.18%;
-    right: 73.83%;
-    top: 4.28%;
-    bottom: 85.83%;
   }
-
   .footer__enunciado {
-    position: absolute;
-    left: 8.18px;
-    right: 30.77%;
-    top: 17.11%;
-    bottom: 75.99%;
-
     font-weight: bold;
     font-size: 15px;
     line-height: 20px;
     letter-spacing: 0.02em;
   }
-
   .footer__parrafo {
-    position: absolute;
-    left: 8.18%;
-    right: 30.37%;
-    top: 25.67%;
-    bottom: 61.5%;
+    margin: 7px 130px 24px 0px;
 
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
   }
-
   .footer__infoContacto {
-    position: absolute;
-    left: 8.18%;
-    right: 45.09;
-    top: 44.92%;
-    bottom: 50.8%;
-
     font-weight: bold;
     font-size: 15px;
     line-height: 20px;
     letter-spacing: 0.02em;
   }
-
   .footer__infoContacto--hr {
-    position: absolute;
-    left: 8.18%;
-    right: 70.79%;
-    top: 47.34%;
-    bottom: 48.66%;
+    margin: 8px 0px 17px 0px;
+    width: 90px;
 
     background-color: #ffffff;
     border: 1px solid #ffffff;
   }
-
   .footer__infoContacto--whatsapp {
-    position: absolute;
-    left: 8.18%;
-    right: 19.39%;
-    top: 55.88%;
-    bottom: 38.77%;
-
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
     letter-spacing: 0.02em;
   }
-
   .footer__redes {
-    position: absolute;
-    left: 8.18%;
-    right: 20.09%;
-    top: 64.17%;
-    bottom: 29.41%;
+    margin: 11px 0px 16px 0px;
 
     font-weight: bold;
     font-size: 15px;
     line-height: 28px;
     letter-spacing: 0.02em;
   }
+  .redesFooter {
+    width: 35px;
+    height: 35px;
 
+    background-color: #f2f2f7;
+  }
   .footer__hecho {
-    position: absolute;
-    left: 3.74%;
-    right: 7.48%;
-    top: 90.64%;
-    bottom: 3.48%;
+    margin: 28px 0px 13px 0px;
 
     font-size: 13px;
     line-height: 18px;
@@ -151,38 +108,35 @@ footer {
 //Inicio
 
 //Carrousel
-#inicio__carrousel{
-    margin-top: 48px;
-    margin-bottom: 20px;
-    padding: 48px 35px;
+#inicio__carrousel {
+  margin-top: 48px;
+  margin-bottom: 20px;
+  padding: 48px 35px;
 
-    color: #414141;
-    background-color: $colorComplementario1;
+  color: #414141;
+  background-color: $colorComplementario1;
+  #inicio__carrousel--enunciado {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+  }
+  #inicio__carrousel--hr {
+    width: 148px;
 
-    #inicio__carrousel--enunciado{
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 33px;
-        letter-spacing: 0.02em
-    }
-    #inicio__carrousel--hr{
-        width: 148px;
-    
-        border: 1px solid #000000;
-    }
-    #inicio__carrousel--parrafo{
-        font-size: 14px;
-        line-height: 19px;
-        letter-spacing: 0.02em;
-    }
+    border: 1px solid #000000;
+  }
+  #inicio__carrousel--parrafo {
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+  }
 }
 
 //Línea premium
 #inicio__LP {
-    margin: 0px 35px;
-    color: #414141;
-    position: absolute;
-    top: 420px;
+  margin: 0px 35px;
+  color: #414141;
   #inicio__imagenLP--div {
     display: inline-flex;
     .inicio__imagen--LPremium {
@@ -190,8 +144,6 @@ footer {
     }
   }
   #inicio__LP--enunciado {
-    /* position: absolute;
-    top: 664px; */
     margin-top: 15px;
     margin-bottom: 0px;
 
@@ -200,162 +152,142 @@ footer {
     letter-spacing: 0.02em;
   }
   #inicio__LP--hr {
-    /* position: absolute;
-    top: 736px; */
     margin-top: 0.5rem;
     width: 197px;
+
     border: 1px solid #414141;
   }
   #inicio__LP--parrafo {
-      /* position: absolute;
-      top: 744px; */
-      margin-right: 35px;
-      font-size: 14px;
-      line-height: 19px;
-      letter-spacing: 0.02em;
+    margin-right: 35px;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
   }
-  #inicio__LP--boton{
-      width: 90px;
-      height: 32px;
+  #inicio__LP--boton {
+    width: 90px;
+    height: 32px;
 
-      background-color: #414141;
-      border: none;
-      a{
-          text-decoration: none;
-          color: #f2f2f7;
-      }
+    background-color: #414141;
+    border: none;
+    a {
+      text-decoration: none;
+      color: #f2f2f7;
+    }
   }
 }
 
 //Clientes
-#inicio__clientes{
-    position: absolute;
-    top: 896px;
-    padding: 35px;
-    margin-top: 18px;
+#inicio__clientes {
+  padding: 35px;
+  margin-top: 18px;
 
-    color: #f2f2f7;
-    background-color: #747f82;
-    #inicio__clientes--enunciado{
-        padding-right: 70px;
+  color: #f2f2f7;
+  background-color: #747f82;
+  #inicio__clientes--enunciado {
+    padding-right: 70px;
 
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 33px;
-        letter-spacing: 0.02em;
-    }
-    #inicio__clientes--hr{
-        width: 239px;
-        margin-top: 0;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+  }
+  #inicio__clientes--hr {
+    width: 239px;
+    margin-top: 0;
 
-        border: 1px solid #f2f2f7;
+    border: 1px solid #f2f2f7;
+  }
+  #inicio__clientes--div {
+    display: inline-flex;
+    #inicio__clientesDiv--imagen {
+      margin-right: 10px;
+      height: 102px;
+
+      border-radius: 50%;
     }
-    #inicio__clientes--div{
-        display: inline-flex;
-        #inicio__clientesDiv--imagen{
-            margin-right: 10px;
-            height: 102px;
-            border-radius: 50%;
-        }
-        #inicio__clientesDiv--comentarios{
-            font-size: 14px;
-            line-height: 19px;
-            letter-spacing: 0.02em;
-        }
+    #inicio__clientesDiv--comentarios {
+      font-size: 14px;
+      line-height: 19px;
+      letter-spacing: 0.02em;
     }
+  }
 }
 
 //Productos destacados
-#inicio__productos{
-    position: absolute;
-    top: 1232px;
-    margin-left: 35px;
-    #inicio__productos--enunciado{
-        margin-bottom: 16px;
-        font-size: 21px;
-        font-weight: 700;
-        line-height: 29px;
-        letter-spacing: 0.02em;
+#inicio__productos {
+  margin-left: 35px;
+  #inicio__productos--enunciado {
+    margin-bottom: 16px;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0.02em;
 
-        text-align: center;
-        color: #414141;
-    }
-    #inicio__productos--div{
-        height: 712px;
-        background-color: #f2f2f7;
-    }
-
+    text-align: center;
+    color: #414141;
+  }
+  #inicio__productos--div {
+    height: 712px;
+    background-color: #f2f2f7;
+  }
 }
 
 //Apartado
-#inicio__apartado{
-    padding-bottom: 40px;
-    padding-left: 35px;
-    position: absolute;
-    top: 1945px;
-    background-color: $colorAcento;
-    #inicio__apartado--enunciado{
-        color: #f2f2f7;
-        margin: 0;
-        padding-top: 11px;
-        font-weight: bold;
-        font-size: 25px;
-        line-height: 50px;
-        letter-spacing: 0.02em;        
-    }
-    #inicio__apartado--hr{
-        width: 239px;
-        margin-top: 0;
+#inicio__apartado {
+  padding-bottom: 40px;
+  padding-left: 35px;
 
-        color: #f2f2f7;
-        border: 1px solid #f2f2f7;
-    }
-    #inicio__apartado--parrafo{
-        margin-right: 131px;
+  background-color: $colorAcento;
+  #inicio__apartado--enunciado {
+    color: #f2f2f7;
+    margin: 0;
+    padding-top: 11px;
 
-        font-size: 12px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 50px;
+    letter-spacing: 0.02em;
+  }
+  #inicio__apartado--hr {
+    width: 239px;
+    margin-top: 0;
 
-    }
-    #inicio__apartado--input{
-        width: 336px;
-        margin-bottom: 8px;
-    }
-    #inicio__apartado--boton{
-        margin-left: 76px;
-        width: 200px;
-        height: 32px;
+    color: #f2f2f7;
+    border: 1px solid #f2f2f7;
+  }
+  #inicio__apartado--parrafo {
+    margin-right: 131px;
 
-        border: none;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+  }
+  #inicio__apartado--input {
+    width: 336px;
+    margin-bottom: 8px;
+  }
+  #inicio__apartado--boton {
+    margin-left: 76px;
+    width: 200px;
+    height: 32px;
 
-        color: #f2f2f7;
-        background-color: #414141;
+    border: none;
 
-    }
+    color: #f2f2f7;
+    background-color: #414141;
+  }
 }
-
-
 
 //Nosotros
 
 #nosotros__presentación {
-  position: absolute;
-  width: 428px;
   height: 320px;
-  left: 0px;
-  top: 120px;
+  margin-top: 48px;
+
   background-color: $colorAcento;
-
   #nosotros__presentación--enunciado {
-    position: absolute;
-    width: 357.52px;
-    height: 112px;
-    left: 35.48px;
-    top: 88px;
+    padding: 88px 35px 32px 35px;
 
-    font-family: Open Sans;
-    font-style: normal;
     font-weight: bold;
     font-size: 21px;
     line-height: 29px;
@@ -363,12 +295,9 @@ footer {
 
     color: #f2f2f7;
   }
-
   #nosotros__presentación--hr {
-    position: absolute;
-    width: 147.97px;
-    left: 35px;
-    top: 232px;
+    margin: 0px 0px 88px 35px;
+    width: 148px;
 
     background-color: #f2f2f7;
     border: 1px solid #f2f2f7;
@@ -376,24 +305,16 @@ footer {
 }
 
 #nosotros__imagen {
-  position: absolute;
+  margin: 48px 35px 24px 35px;
   width: 358px;
   height: 264px;
-  left: 35px;
-  top: 488px;
+
   background-color: #c4c4c4;
 }
 
 #nosotros__parrafo {
-  position: absolute;
-  width: 358px;
-  height: 176px;
-  left: 35px;
-  top: 776px;
+  margin: 0px 35px;
 
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 19px;
   letter-spacing: 0.02em;
@@ -402,52 +323,30 @@ footer {
 }
 
 #nosotros__recuadro {
-  position: absolute;
-  width: 427px;
-  height: 208px;
-  left: 0px;
-  top: 984px;
+  margin: 32px 0px;
+  padding: 56px 35px;
 
   background-color: #f2f2f7;
-}
+  #nosotros__quote {
+    font-size: 23px;
+    line-height: 31px;
+    letter-spacing: 0.02em;
 
-#nosotros__quote {
-  position: absolute;
-  width: 358px;
-  height: 96px;
-  left: 35px;
-  top: 56px;
-
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 23px;
-  line-height: 31px;
-  letter-spacing: 0.02em;
-
-  color: #333333;
+    color: #333333;
+  }
 }
 
 #nosotros__imagen2 {
-  position: absolute;
+  margin-left: 35px;
   width: 358px;
   height: 264px;
-  left: 35px;
-  top: 1224px;
 
   background-color: #c4c4c4;
 }
 
 #nosotros__parrafo2 {
-  position: absolute;
-  width: 358px;
-  height: 136px;
-  left: 35px;
-  top: 1512px;
+  margin: 24px 35px;
 
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 19px;
   letter-spacing: 0.02em;
@@ -456,11 +355,9 @@ footer {
 }
 
 #nosotros__botonProductos {
-  position: absolute;
+  margin-left: 130px;
   width: 169px;
   height: 32px;
-  left: 130px;
-  top: 1672px;
 
   background-color: #414141;
   color: #f2f2f7;
@@ -469,87 +366,83 @@ footer {
   letter-spacing: 0.02em;
 }
 
-
 //Contacto
 
 //Enunciado
-#contacto{
-    margin-top: 48px;
-    padding: 35px;
-    background-color: $colorPrincipal;
-    color: #f2f2f7;
-    #contacto__enunciado{
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 33px;
-        letter-spacing: 0.02em;
-    }
-    #contacto__hr{
-        width: 148px;
-        
-        border: 1px solid #f2f2f7;
-    }
+#contacto {
+  margin-top: 48px;
+  padding: 35px;
+
+  color: #f2f2f7;
+  background-color: $colorPrincipal;
+  #contacto__enunciado {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+  }
+  #contacto__hr {
+    width: 148px;
+
+    border: 1px solid #f2f2f7;
+  }
 }
 
 //iframe
-#ubicacion{
-    width: 357px;
-    height: 328px;
-    margin: 35px;
+#ubicacion {
+  width: 357px;
+  height: 328px;
+  margin: 35px;
 }
 
 //Formulario
-#contacto__formulario{
-    margin-left: 35px;
-
-.contacto__formulario--etiqueta{
-font-weight: bold;
-font-size: 18px;
-line-height: 25px;
-letter-spacing: 0.02em;
-}
-
-.contacto__formulario--input{
-width: 348px;
-height: 21px;
-
-border: none;
-
-background-color: #e5e5ea;
-}
-}
-
-#contacto__formulario--hr{
-    margin-left: 35px;
+#contacto__formulario {
+  margin-left: 35px;
+  .contacto__formulario--etiqueta {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+  }
+  .contacto__formulario--input {
     width: 348px;
+    height: 21px;
 
-    border: 1px solid #000000;
+    background-color: #e5e5ea;
+    border: none;
+  }
+}
+
+#contacto__formulario--hr {
+  margin-left: 35px;
+  width: 348px;
+
+  border: 1px solid #000000;
 }
 
 //Formas de pago
-#contacto__formaDePago{
-    margin: 8px 35px;
+#contacto__formaDePago {
+  margin: 8px 35px;
 
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 20px;
-    letter-spacing: 0.03em;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
 }
-#contacto__parrafo{
-    margin: 8px 35px;
+#contacto__parrafo {
+  margin: 8px 35px;
 
-    font-size: 13px;
-    line-height: 18px;
-    letter-spacing: 0.03em;
-
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.03em;
 }
 
 //Redes
-#contacto__redes{
-    margin: 16px 35px;
-    
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 28px;
-    letter-spacing: 0.02em;
+#contacto__redes {
+  margin: 16px 35px;
+
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
 }
