@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
   position: relative;
 }
 
@@ -93,7 +93,7 @@ footer .footer__hecho {
   top: 19px;
 }
 
-#inicio__carrousel {
+#inicio__carousel {
   margin-top: 48px;
   margin-bottom: 20px;
   padding: 48px 35px;
@@ -101,19 +101,23 @@ footer .footer__hecho {
   background-color: #cbffee;
 }
 
-#inicio__carrousel #inicio__carrousel--enunciado {
+#inicio__carousel #inicio__carousel--imagen {
+  display: none;
+}
+
+#inicio__carousel #inicio__carousel--enunciado {
   font-weight: bold;
   font-size: 24px;
   line-height: 33px;
   letter-spacing: 0.02em;
 }
 
-#inicio__carrousel #inicio__carrousel--hr {
+#inicio__carousel #inicio__carousel--hr {
   width: 148px;
   border: 1px solid #000000;
 }
 
-#inicio__carrousel #inicio__carrousel--parrafo {
+#inicio__carousel #inicio__carousel--parrafo {
   font-size: 14px;
   line-height: 19px;
   letter-spacing: 0.02em;
@@ -208,6 +212,7 @@ footer .footer__hecho {
 
 #inicio__productos {
   margin-left: 35px;
+  margin-top: 48px;
 }
 
 #inicio__productos #inicio__productos--enunciado {
@@ -415,5 +420,23 @@ footer .footer__hecho {
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 0.02em;
+}
+
+@media only screen and (min-width: 900px) {
+  #inicio__carousel {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin: 48px 70px;
+    padding: 0px;
+  }
+  #inicio__carousel #inicio__carousel--imagen {
+    display: block;
+    width: 369px;
+    height: 320px;
+  }
+  #inicio__carousel #inicio__carousel--divTexto {
+    padding: 48px 110px 104px 49px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
