@@ -15,7 +15,6 @@
   width: 100%;
   max-width: 100%;
   margin: 1rem 0;
-
 }
 
 .main__container--info{
@@ -52,18 +51,54 @@ hr{
   background-color: black;
   color: black;
 }
+.product-box--filter{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+
+}
+.product-box--filter h3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 0 1.5rem 0;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #4785FF;
+
+}
+.product-box--filter h3 img{
+  margin: 0 .2rem;
+}
+.product-box--filter .product-options{
+  width: 150px;
+  padding: .1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: bold;
+  background-color: #f2f2f7;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
 .main__container--products-box{
   display: flex;
   flex-wrap: wrap;
-  width: 90%;
+  width: 100%;
   justify-content: center;
-
-
+  align-items: center;
 }
 .--product-container{
-  width: 310px;
-  height: 440px;
-  margin: 1rem;
+  width: 169px;
+  height: 340px;
+  margin: .5rem;
   border: 2px solid black;
 }
 
@@ -73,8 +108,8 @@ hr{
   padding: 0;
 }
 .main__container--products-box img{
-  width: 310px;
-  height: 316px;
+  width: 169px;
+  height: 176px;
   margin: 0 auto;
   padding: .4rem;
 }
@@ -87,13 +122,14 @@ hr{
 }
 
 .main__container--products-box h5{
+  height: 35px;
   margin: 0 10px;
   font-size: .9rem;
   font-weight: bold;
   text-transform: capitalize;
 }
 .card-info .card-description{
-  height: auto;
+  height: 50px;
   margin: 0 10px;
   font-size: .8rem;
   font-weight: normal;
@@ -108,4 +144,34 @@ hr{
 .card-info hr{
   width: 90px;
   margin: 10px 0 0 10px;
+}
+.salient-products{
+  background-color: #efefef;
+}
+.salient-products-title h2{
+  margin: 2rem 0;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+
+}
+.card-container-premium{
+  width: 85%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin: .5rem auto 0 0;
+
+}
+.card-container-premium h5{
+  margin: 0 .5rem;
+  font-weight: bold;
+}
+.card-container-premium img{
+  width: 135px;
+  height: 136px;
+  grid-column: 1;
+}
+.card-container-premium .card-info{
+  grid-column: 2/3;
+  align-self: center;
 }
