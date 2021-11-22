@@ -75,7 +75,7 @@ footer .footer__redes {
 footer .redesFooter {
   width: 35px;
   height: 35px;
-  background-color: #f2f2f7;
+  margin-right: 22px;
 }
 
 footer .footer__hecho {
@@ -288,6 +288,10 @@ footer .footer__hecho {
   background-color: #414141;
 }
 
+#nosotros__imagenPresentación {
+  display: none;
+}
+
 #nosotros__presentación {
   height: 320px;
   margin-top: 48px;
@@ -329,6 +333,10 @@ footer .footer__hecho {
   margin: 32px 0px;
   padding: 56px 35px;
   background-color: #f2f2f7;
+}
+
+#nosotros__recuadro #nosotros__recuadro--imagen {
+  display: none;
 }
 
 #nosotros__recuadro #nosotros__quote {
@@ -434,6 +442,13 @@ footer .footer__hecho {
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 0.02em;
+}
+
+.contacto__logos {
+  margin-left: 35px;
+  height: 26.89px;
+  width: 26.89px;
+  background-color: #dadada;
 }
 
 @media only screen and (min-width: 1024px) {
