@@ -288,14 +288,14 @@ footer .footer__hecho {
   background-color: #414141;
 }
 
-#nosotros__imagenPresentación {
-  display: none;
-}
-
 #nosotros__presentación {
   height: 320px;
   margin-top: 48px;
   background-color: #db504a;
+}
+
+#nosotros__presentación #nosotros__imagenPresentación {
+  display: none;
 }
 
 #nosotros__presentación #nosotros__presentación--enunciado {
@@ -317,7 +317,7 @@ footer .footer__hecho {
 #nosotros__imagen {
   margin: 48px 35px 24px 35px;
   width: 358px;
-  height: 264px;
+  height: 214px;
   background-color: #c4c4c4;
 }
 
@@ -329,14 +329,14 @@ footer .footer__hecho {
   color: #333333;
 }
 
+#nosotros__recuadro--imagen {
+  display: none;
+}
+
 #nosotros__recuadro {
   margin: 32px 0px;
   padding: 56px 35px;
   background-color: #f2f2f7;
-}
-
-#nosotros__recuadro #nosotros__recuadro--imagen {
-  display: none;
 }
 
 #nosotros__recuadro #nosotros__quote {
@@ -349,8 +349,7 @@ footer .footer__hecho {
 #nosotros__imagen2 {
   margin-left: 35px;
   width: 358px;
-  height: 264px;
-  background-color: #c4c4c4;
+  height: 214px;
 }
 
 #nosotros__parrafo2 {
@@ -372,11 +371,19 @@ footer .footer__hecho {
   letter-spacing: 0.02em;
 }
 
+#nosotros__imagen2--desktop {
+  display: none;
+}
+
 #contacto {
   margin-top: 48px;
   padding: 35px;
   color: #f2f2f7;
   background-color: #479db5;
+}
+
+#contacto #contacto__imagen {
+  display: none;
 }
 
 #contacto #contacto__enunciado {
@@ -566,6 +573,157 @@ footer .footer__hecho {
   #inicio__apartado #inicio__apartado--formulario #inicio__apartado--boton {
     margin-left: 20px;
     margin-right: 40px;
+  }
+  #nosotros__presentación {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin: 48px 30px 0px 30px;
+  }
+  #nosotros__presentación #nosotros__imagenPresentación {
+    display: block;
+  }
+  #nosotros__presentación #nosotros__presentación--enunciado {
+    padding-right: 110px;
+    padding-bottom: 12px;
+    font-size: 30px;
+    line-height: 35px;
+  }
+  #nosotros__presentación #nosotros__presentación--hr {
+    margin: 0px 0px 88px 35px;
+    width: 310px;
+  }
+  .nosotrosArticle {
+    margin: 18px 35px 24px 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .nosotrosArticle #nosotros__imagen {
+    width: 408px;
+    height: 264px;
+  }
+  .nosotrosArticle #nosotros__parrafo {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  #nosotrosRecuadro {
+    position: relative;
+    height: 280px;
+    margin: 85px 30px 0px 30px;
+  }
+  #nosotrosRecuadro #nosotros__recuadro--imagen {
+    display: block;
+    position: absolute;
+    margin: 80px;
+    bottom: 0%;
+    z-index: 3;
+  }
+  #nosotrosRecuadro #nosotros__recuadro {
+    position: absolute;
+    bottom: 30%;
+    z-index: 1;
+    margin: 0px;
+    padding: 52px 85px 48px 305px;
+    background-color: #cbffee;
+  }
+  #nosotrosRecuadro #nosotros__recuadro #nosotros__quote {
+    font-size: 27px;
+    line-height: 38px;
+  }
+  #nosotros__imagen2 {
+    display: none;
+  }
+  #nosotros__parrafo2 {
+    margin: 24px 35px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  #nosotros__botonProductos {
+    margin-left: 35px;
+    width: 200px;
+  }
+  #nosotros__imagen2--desktop {
+    display: block;
+    width: 408px;
+    height: 264px;
+  }
+  #contacto {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin: 48px 30px 0px 30px;
+    padding: 5px 20px 0px 110px;
+  }
+  #contacto #contacto__imagen {
+    display: block;
+  }
+  #contacto div {
+    padding: 112px 110px;
+  }
+  #contacto div #contacto__enunciado {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  #contacto div #contacto__hr {
+    width: 310px;
+  }
+  #contacto__section {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  #contacto__section #ubicacion {
+    width: 430px;
+    height: 388px;
+    margin-left: 100px;
+  }
+  #contacto__section #contacto__formulario {
+    margin: 88px 20px 5px 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #contacto__section #contacto__formulario .contacto__formulario--etiqueta {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+  #contacto__section #contacto__formulario .contacto__formulario--input {
+    width: 430px;
+    height: 32px;
+  }
+  #contacto__section #contacto__formulario--hr {
+    margin-left: 0px;
+    margin-bottom: 32px;
+    width: 430px;
+  }
+  #contacto__section #contacto__formaDePago {
+    margin: 8px 88px 8px 0px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  #contacto__section #contacto__parrafo {
+    margin: 8px 100px 8px 0px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  #contacto__section #contacto__redes {
+    margin: 16px 0px;
+    font-size: 18px;
+    line-height: 28px;
   }
 }
 /*# sourceMappingURL=style.css.map */
