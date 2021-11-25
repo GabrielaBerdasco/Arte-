@@ -34,7 +34,8 @@ function showPremium(array){
                                 <img class="card-img-top" src="${item.img}" alt="Card image cap">
                                 </div>
                                 <div class="card-info">
-                                <h5 class="card-title">${item.Nombre}</h5>                                
+                                <h5 class="card-title">${item.Nombre}</h5>
+
                                 <p class="card-description">${item.Descripcion}</p>
                                 <hr>
                                 <p class="card-price"><small class="text-muted">$ ${item.Precio}</p>
