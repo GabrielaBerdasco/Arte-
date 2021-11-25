@@ -10,15 +10,22 @@ body {
 }
 
 header ul li {
-  font-size: large;
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 footer {
   height: 374px;
   width: auto;
   margin-top: 48px;
-  padding: 16px 35px 13px 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 35px;
   background-color: #747f82;
   color: #f2f2f7;
 }
@@ -78,46 +85,40 @@ footer .redesFooter {
   margin-right: 22px;
 }
 
-footer .footer__hecho {
-  margin: 28px 0px 13px 0px;
-  font-size: 13px;
-  line-height: 18px;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
 #logo {
   height: 41px;
   width: 85px;
-  left: 315px;
-  top: 19px;
 }
 
-#inicio__carousel {
+.header__logoWhatsapp {
+  width: 30px;
+  height: 30px;
+}
+
+.inicio__carousel {
   margin-top: 48px;
   margin-bottom: 20px;
-  padding: 48px 35px;
+  padding: 48px 45px;
   color: #414141;
-  background-color: #cbffee;
 }
 
-#inicio__carousel #inicio__carousel--imagen {
+.inicio__carousel .inicio__carousel--imagen {
   display: none;
 }
 
-#inicio__carousel #inicio__carousel--enunciado {
+.inicio__carousel .inicio__carousel--enunciado {
   font-weight: bold;
   font-size: 24px;
   line-height: 33px;
   letter-spacing: 0.02em;
 }
 
-#inicio__carousel #inicio__carousel--hr {
+.inicio__carousel .inicio__carousel--hr {
   width: 148px;
   border: 1px solid #000000;
 }
 
-#inicio__carousel #inicio__carousel--parrafo {
+.inicio__carousel .inicio__carousel--parrafo {
   font-size: 14px;
   line-height: 19px;
   letter-spacing: 0.02em;
@@ -459,23 +460,68 @@ footer .footer__hecho {
 }
 
 @media only screen and (min-width: 1024px) {
-  #inicio__carousel {
+  #logo {
+    height: 87px;
+    width: 196px;
+  }
+  .header__logoWhatsapp {
+    width: 40px;
+    height: 40px;
+  }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    padding-bottom: 85px;
+  }
+  footer .footer__logo {
+    width: 196px;
+    height: 87px;
+    margin-left: 70px;
+    margin-right: 100px;
+  }
+  footer .footer__enunciado {
+    font-size: 18px;
+  }
+  footer .footer__parrafo {
+    width: 280px;
+    margin-right: 70px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  footer .footer__infoContacto {
+    font-size: 20px;
+  }
+  footer .footer__infoContacto--whatsapp {
+    font-size: 18px;
+  }
+  footer .footer__redes {
+    font-size: 16px;
+  }
+  .inicio__carousel {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
     margin: 48px 70px;
     padding: 0px;
   }
-  #inicio__carousel #inicio__carousel--imagen {
+  .inicio__carousel .inicio__carousel--imagen {
     display: block;
     padding-left: 23px;
     width: 369px;
     height: 320px;
   }
-  #inicio__carousel #inicio__carousel--divTexto {
+  .inicio__carousel .inicio__carousel--divTexto {
     padding: 48px 100px 104px 49px;
   }
-  #inicio__carousel #inicio__carousel--divTexto #inicio__carousel--hr {
+  .inicio__carousel .inicio__carousel--divTexto .inicio__carousel--hr {
     width: 310px;
   }
   #inicio__LP {

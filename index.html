@@ -22,18 +22,22 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
-          <ul class="navbar-nav ms-5">
-            <li class="nav-item mx-5">
+          <ul class="navbar-nav align-items-center">
+            <li class="nav-item mx-4">
               <a class="nav-link" href="./nosotros.html">Nosotros</a>
             </li>
-            <li class="nav-item mx-5">
+            <li class="nav-item mx-4">
               <a class="nav-link" href="./productos.html">Productos</a>
             </li>
-            <li class="nav-item mx-5">
+            <li class="nav-item mx-4">
               <a class="nav-link" href="./lineaPremium.html">Línea Premium</a>
             </li>
-            <li class="nav-item mx-5">
+            <li class="nav-item mx-4">
               <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="#"><img src="./assets/Header_Whatsapp.png" alt="Logo Whatsapp"
+                  class="header__logoWhatsapp"></a>
             </li>
           </ul>
         </div>
@@ -43,14 +47,46 @@
   <section>
     <article>
       <!-- carousel bootstrap -->
-      <div id="inicio__carousel">
-        <img src="./assets/Inicio_CajaMate.png" alt="Caja y mate artesanal de madera" id="inicio__carousel--imagen">
-        <div id="inicio__carousel--divTexto">
-        <h2 id="inicio__carousel--enunciado">El regalo que esperan, obsequios artesanales y auténticos</h2>
-        <hr id="inicio__carousel--hr">
-        <p id="inicio__carousel--parrafo">Artículos únicos, hechos a mano, de calidad y con atención en los detalles
-        </p>
-      </div>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="inicio__carousel" style="background-color: #cbffee;">
+              <img src="./assets/Inicio_CajaMate.png" alt="Caja y mate artesanal de madera"
+                class="inicio__carousel--imagen">
+              <div class="inicio__carousel--divTexto">
+                <h2 class="inicio__carousel--enunciado">El regalo que esperan, obsequios artesanales y auténticos</h2>
+                <hr class="inicio__carousel--hr">
+                <p class="inicio__carousel--parrafo">Artículos únicos, hechos a mano, de calidad y con atención en los
+                  detalles
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="inicio__carousel" style="background-color: #e3b505;">
+              <img src="./assets/Inicio_Gift giving.png" alt="Caja y mate artesanal de madera"
+                class="inicio__carousel--imagen">
+              <div class="inicio__carousel--divTexto">
+                <h2 class="inicio__carousel--enunciado">Obsequios que se ajustan al estilo de cada cliente</h2>
+                <hr class="inicio__carousel--hr">
+                <p class="inicio__carousel--parrafo">Transmite el mensaje y la imagen de marca que desees, personaliza
+                  tu regalo a las condiciones y público
+                  específico de cada empresa.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </article>
     <article id="inicio__LP">
@@ -61,12 +97,12 @@
         <img src="./assets/Home_alfajores 2.jpg" alt="Caja alfajores" class="inicio__imagenLP--desktop">
       </div>
       <div>
-      <h3 id="inicio__LP--enunciado">Conoce nuestra <br><strong>LINEA PREMIUM</strong></h3>
-      <hr id="inicio__LP--hr">
-      <p id="inicio__LP--parrafo">Logra que tu regalo resalte entre los demás con nuestra línea premium. Ideal para
-        fechas importantes.</p>
-      <button id="inicio__LP--boton"><a href="./lineaPremium.html">Ver más</a></button>
-    </div>
+        <h3 id="inicio__LP--enunciado">Conoce nuestra <br><strong>LINEA PREMIUM</strong></h3>
+        <hr id="inicio__LP--hr">
+        <p id="inicio__LP--parrafo">Logra que tu regalo resalte entre los demás con nuestra línea premium. Ideal para
+          fechas importantes.</p>
+        <button id="inicio__LP--boton"><a href="./lineaPremium.html">Ver más</a></button>
+      </div>
     </article>
   </section>
   <section id="sectionClientes">
@@ -84,29 +120,33 @@
       </div>
     </article>
   </section>
-    <article id="inicio__productos">
-      <h2 id="inicio__productos--enunciado">Nuestros productos destacados</h2>
-      <div id="inicio__productos--div">
+  <article id="inicio__productos">
+    <h2 id="inicio__productos--enunciado">Nuestros productos destacados</h2>
+    <div id="inicio__productos--div">
 
-      </div>
-    </article>
+    </div>
+  </article>
   <aside id="inicio__apartado">
     <img src="./assets/Pareja celular 1.png" alt="Dos personas mirando celular" id="inicio__apartado--imagen">
     <div>
-    <h3 id="inicio__apartado--enunciado">Enterate de más</h3>
-    <hr id="inicio__apartado--hr">
-    <p id="inicio__apartado--parrafo">Recibí todas nuestras noticias, promociones y otras ventajas exclusivas</p>
-    <form action="" id="inicio__apartado--formulario">
-      <input type="email" id="inicio__apartado--input">
-      <button id="inicio__apartado--boton">Suscribirme</button>
-    </form>
-  </div>
+      <h3 id="inicio__apartado--enunciado">Enterate de más</h3>
+      <hr id="inicio__apartado--hr">
+      <p id="inicio__apartado--parrafo">Recibí todas nuestras noticias, promociones y otras ventajas exclusivas</p>
+      <form action="" id="inicio__apartado--formulario">
+        <input type="email" id="inicio__apartado--input">
+        <button id="inicio__apartado--boton">Suscribirme</button>
+      </form>
+    </div>
   </aside>
 
   <footer>
     <img src="./assets/arte+_logo blancoArtboard 3 1.png" alt="Logo Arte+" class="footer__logo">
-    <h5 class="footer__enunciado">Productos artesanales</h4>
-      <p class="footer__parrafo">Productos hechos a mano y con el corazón, ubicados en: <br>Calle 321, 78. Argentina</p>
+    <div>
+      <h5 class="footer__enunciado">Productos artesanales</h4>
+        <p class="footer__parrafo">Productos hechos a mano y con el corazón, ubicados en: <br>Calle 321, 78. Argentina
+        </p>
+    </div>
+    <div>
       <h5 class="footer__infoContacto">Contacto</h4>
         <hr class="footer__infoContacto--hr">
         <h5 class="footer__infoContacto--whatsapp">Whatsapp +54 911 2521 1932</h4>
@@ -114,12 +154,12 @@
             <div class="footer__redes--icon">
               <a href="https://www.facebook.com/artemaskyg/"><img src="./assets/Facebook.png" alt="Logo Facebook"
                   class="redesFooter"></a>
-              <a href="https://www.instagram.com/arteymas.art/"><img src="./assets/Instagram.png" alt="Logo Instagram"
+              <a href="https://www.instagram.com/arteymas.art/"><img src="./assets/instagram.png" alt="Logo Instagram"
                   class="redesFooter"></a>
               <a href=""><img src="./assets/linkedin.png" alt="Logo LinkedIn" class="redesFooter"></a>
               <a href=""><img src="./assets/tiktok.png" alt="Logo TikTok" class="redesFooter"></a>
             </div>
-            <h6 class="footer__hecho">Hecho por:</h6>
+    </div>
   </footer>
 
 
