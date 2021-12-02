@@ -41,11 +41,12 @@ let arrNew = [];
 
 
 
+
+
+
 function filterCategory(){
   let option = document.querySelector('.product-options')
   let nextPageBtn = document.querySelector('.next')
-
-
 
   option.addEventListener('change', ()=>{
     arrNew = []
@@ -64,6 +65,27 @@ function filterCategory(){
   })
 }
 
+function filterCategoryClick(){
+  let options = document.querySelectorAll('.option')
+  let current_page = 1;
+
+  options.forEach((items) => {
+    items.addEventListener('click', ()=>{
+      arrNew = []
+      productos.forEach((item) => {
+        (item.categoria === items.innerText) ? item.clase= "show" : item.clase="hide";
+        (items.innerText=="Todas") ? item.clase= "show" : undefined;
+        (item.clase=="show") ? arrNew.push(item) : arrNew;
+        (item.clase=="show") ? displayProducts(arrNew, list_element, rows, current_page) : undefined;
+
+      });
+      totalPages2 = Math.ceil(arrNew.length / rows)
+      pagesChange(current_page, totalPages2)
+  });
+
+})
+}
+filterCategoryClick()
 
 const productPremium = document.querySelector('.salient-products')
 

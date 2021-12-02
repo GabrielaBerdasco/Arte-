@@ -21,24 +21,24 @@
   width: 100%;
   margin: 2rem auto;
   background-color: var(--colorComplementario2);
-  /* usar variable en backgroung */
+
 }
 
-.--info{
-  width: 90%;
+.--info--container{
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
 }
-.--info h2{
-  width: 100%;
+.--info-container h2{
+  width: 85%;
   padding: 4rem 0 0 2rem;
   font-size: 1.5rem;
   font-weight: bold;
   letter-spacing: .5px;
   line-height: 1.5;
 }
-.--info p{
-  width: 90%;
+.--info-container p{
+  width: 85%;
   padding: .5rem 0 4rem 2rem;
   font-size: .8rem;
   line-height: 1.5;
@@ -57,6 +57,9 @@ hr{
   flex-wrap: wrap;
   margin: 1rem 0;
 
+}
+.product-box--filter--display h2{
+  margin-bottom: .3rem;
 }
 .product-box--filter h3{
   display: flex;
@@ -240,19 +243,18 @@ footer{
   background-color: #f2f2f7;
 }
 .--cards-premium{
-  position: relative;
   display: flex;
-  width: 100%;
+  width: 900px;
   padding: 3rem 0;
-  overscroll-behavior-x: contain;
-  overflow-x: hidden;
-  scroll-snap-type: x mandatory;
+  overflow: auto;
+  overscroll-behavior: contain;
+  scroll-snap-type: x proximity;
 }
 .--cards-container{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 440px;
+  width: 640px;
   max-width: 500px;
   padding: 6rem 0;
   margin: 0 1rem;

@@ -1,0 +1,125 @@
+
+@media screen and (min-width: 740px){
+  .main__container{
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+  }
+  .main__container--info{
+    width: 90%;
+    display: flex;
+    grid-column: 1/3;
+    align-items: center;
+  }
+  .main__container .product-box--filter{
+    grid-column: 1/2;
+  }
+  .main__container .main__container--product-box{
+    grid-column: 2/3;
+  }
+  .main__container .main__container--premium-box,
+  .main__container #inicio__apartado{
+    width: 90%;
+    grid-column: 1/3;
+    justify-content: center;
+    margin: 1rem auto;
+  }
+
+  .main__container--info .--info-container{
+    width: 80%;
+    height: 230px;
+  }
+  .main__container--info .img-container{
+    width: 280px;
+
+
+  }
+  .main__container--info .img-container .img{
+    width: 300px;
+    height: 230px;
+    background-image: url("./assets/Edit_handmade 1.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+   .--info-container h2{
+    width: 85%;
+    margin: .5rem 0;
+    padding: 1.2rem 0 0 2rem;
+    font-size: 1.5rem;
+  }
+  .--info-container p{
+    width: 85%;
+    margin-bottom: .2rem;
+    font-size: .8rem;
+  }
+  .--info-container hr{
+    margin: 0 2rem;
+    padding: 0;
+    color: black;
+    border-color: black;
+  }
+  .salient-products-title{
+    display: flex;
+    align-items: center;
+  }
+  .salient-products-title hr{
+    display: block;
+    width: 80%;
+    padding: 0;
+    margin: 0;
+    color: black;
+    border-color: black;
+    background-color: black;
+  }
+  .salient-products-title h2{
+    width: 100%;;
+  }
+  .main__container--premium-box .salient-products{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 2rem;
+
+  }
+  .main__container--premium-box .salient-products .--product-container-premium{
+    width: 50%;
+  }
+  .card-container-premium .card-info .card-description{
+    height: auto;
+  }
+  .product-box--filter{
+    display: none;
+  }
+  .product-box--filter--display{
+    display: block;
+    margin-left: 3rem;
+  }
+  .product-box--filter--display h2{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: .3rem;
+  }
+  .product-box--filter--display h3{
+    margin: .5rem 0;
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+  .product-box--filter--display h3:hover{
+    cursor: pointer;
+  }
+  .product-box--filter--display hr{
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    color: black;
+    background-color: black;
+    border-color: black;
+  }
+
+  .pagenumbers{
+    justify-content: flex-end;
+    margin-right: 5rem;
+  }
+
+}
