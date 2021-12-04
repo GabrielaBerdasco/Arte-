@@ -75,12 +75,8 @@ function filterCategoryClick(){
         (item.Nombre === items.innerText) ? item.clase= "show" : item.clase="hide";
         (item.clase=="show") ? arrNew.push(item) : arrNew;
         (item.clase=="show") ? showPremium(arrNew) : undefined;
-
       });
-
-
   });
-
 })
 }
 

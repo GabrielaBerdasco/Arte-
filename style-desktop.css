@@ -1,7 +1,7 @@
 
 
 @media screen and (min-width: 987px){
-  
+
   .product-box--filter--display h2{
     font-size: 1.4rem;
     font-weight: bold;
@@ -41,6 +41,10 @@
   .product-box--filter--display{
     margin-left: 4rem;
   }
+  .--cards-premium{
+    width: 90%;
+    grid-gap: 1rem;
+  }
 
 }
 
@@ -74,11 +78,23 @@
     justify-content: flex-end;
     margin-right: 4rem;
   }
+
+  /* Premium */
+  .card-container-premium-page{
+    margin-left: 5rem;
+  }
+
   .main__container--premium-box .salient-products{
     padding: 4rem 8rem;
   }
   .product-box--filter--display{
     margin-left: 4rem;
+  }
+  .--cards-container{
+    height: 150px;
+  }
+  .--cards-premium .--cards-container h3{
+    font-size: 1.2rem;
   }
 }
 @media screen and (min-width: 1343px){
