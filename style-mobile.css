@@ -58,9 +58,7 @@ hr{
   margin: 1rem 0;
 
 }
-.product-box--filter--display h2{
-  margin-bottom: .3rem;
-}
+
 .product-box--filter h3{
   display: flex;
   align-items: center;
@@ -229,11 +227,15 @@ footer{
   padding: 5rem;
 
 }
-.--premium-info h2{
-  width: 100%;
+.--premium-info h2,
+.--premium-info h3{
+  width: 90%;
   font-weight: 700;
   color: #fff;
   line-height: 1.5;
+}
+.--premium-info h3{
+  font-weight: 400;
 }
 .--premium-info hr{
   width: 10rem;
@@ -244,7 +246,7 @@ footer{
 }
 .--cards-premium{
   display: flex;
-  width: 900px;
+  width: 100%;
   padding: 3rem 0;
   overflow: auto;
   overscroll-behavior: contain;

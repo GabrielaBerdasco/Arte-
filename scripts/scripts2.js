@@ -64,5 +64,26 @@ function primerProducto(array){
 }
 
 
+function filterCategoryClick(){
+  let options = document.querySelectorAll('.option_cat')
+
+  options.forEach((items) => {
+    console.log(items);
+    items.addEventListener('click', ()=>{
+      arrNew = []
+      productos.forEach((item) => {
+        (item.Nombre === items.innerText) ? item.clase= "show" : item.clase="hide";
+        (item.clase=="show") ? arrNew.push(item) : arrNew;
+        (item.clase=="show") ? showPremium(arrNew) : undefined;
+
+      });
+
+
+  });
+
+})
+}
+
+filterCategoryClick()
 showPremium(productos)
 filterCategory()
