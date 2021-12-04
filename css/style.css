@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +14,7 @@ header ul li {
 }
 
 footer {
-  height: 374px;
+  /* height: 374px; */
   width: auto;
   margin-top: 48px;
   display: -webkit-box;
@@ -80,8 +79,8 @@ footer .footer__redes {
 }
 
 footer .redesFooter {
-  width: 35px;
-  height: 35px;
+  width: 32px;
+  height: 32px;
   margin-right: 22px;
 }
 
@@ -93,93 +92,6 @@ footer .redesFooter {
 .header__logoWhatsapp {
   width: 30px;
   height: 30px;
-}
-
-#nosotros__presentación {
-  height: 320px;
-  margin-top: 48px;
-  background-color: #db504a;
-}
-
-#nosotros__presentación #nosotros__imagenPresentación {
-  display: none;
-}
-
-#nosotros__presentación #nosotros__presentación--enunciado {
-  padding: 88px 35px 32px 35px;
-  font-weight: bold;
-  font-size: 21px;
-  line-height: 29px;
-  letter-spacing: 0.02em;
-  color: #f2f2f7;
-}
-
-#nosotros__presentación #nosotros__presentación--hr {
-  margin: 0px 0px 88px 35px;
-  width: 148px;
-  background-color: #f2f2f7;
-  border: 1px solid #f2f2f7;
-}
-
-#nosotros__imagen {
-  margin: 48px 35px 24px 35px;
-  width: 358px;
-  height: 214px;
-  background-color: #c4c4c4;
-}
-
-#nosotros__parrafo {
-  margin: 0px 35px;
-  font-size: 14px;
-  line-height: 19px;
-  letter-spacing: 0.02em;
-  color: #333333;
-}
-
-#nosotros__recuadro--imagen {
-  display: none;
-}
-
-#nosotros__recuadro {
-  margin: 32px 0px;
-  padding: 56px 35px;
-  background-color: #f2f2f7;
-}
-
-#nosotros__recuadro #nosotros__quote {
-  font-size: 23px;
-  line-height: 31px;
-  letter-spacing: 0.02em;
-  color: #333333;
-}
-
-#nosotros__imagen2 {
-  margin-left: 35px;
-  width: 358px;
-  height: 214px;
-}
-
-#nosotros__parrafo2 {
-  margin: 24px 35px;
-  font-size: 14px;
-  line-height: 19px;
-  letter-spacing: 0.02em;
-  color: #333333;
-}
-
-#nosotros__botonProductos {
-  margin-left: 130px;
-  width: 169px;
-  height: 32px;
-  background-color: #414141;
-  color: #f2f2f7;
-  font-size: 16px;
-  line-height: 22px;
-  letter-spacing: 0.02em;
-}
-
-#nosotros__imagen2--desktop {
-  display: none;
 }
 
 #contacto {
@@ -265,7 +177,7 @@ footer .redesFooter {
   background-color: #dadada;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1023.9px) {
   #logo {
     height: 57px;
     width: 118px;
@@ -285,9 +197,8 @@ footer .redesFooter {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
-    height: 208px;
     margin-top: 32px;
-    padding-top: 0px;
+    padding-top: 32px;
     padding-bottom: 45px;
   }
   footer .footer__logo {
@@ -327,87 +238,6 @@ footer .redesFooter {
     height: 23px;
     margin-top: 8px;
     margin-right: 17px;
-  }
-  #nosotros__presentación {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    margin: 48px 30px 0px 30px;
-  }
-  #nosotros__presentación #nosotros__imagenPresentación {
-    display: block;
-  }
-  #nosotros__presentación #nosotros__presentación--enunciado {
-    padding-right: 110px;
-    padding-bottom: 12px;
-    font-size: 30px;
-    line-height: 35px;
-  }
-  #nosotros__presentación #nosotros__presentación--hr {
-    margin: 0px 0px 88px 35px;
-    width: 310px;
-  }
-  .nosotrosArticle {
-    margin: 18px 35px 24px 80px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .nosotrosArticle #nosotros__imagen {
-    width: 408px;
-    height: 264px;
-  }
-  .nosotrosArticle #nosotros__parrafo {
-    font-size: 16px;
-    line-height: 22px;
-  }
-  #nosotrosRecuadro {
-    position: relative;
-    height: 280px;
-    margin: 85px 30px 0px 30px;
-  }
-  #nosotrosRecuadro #nosotros__recuadro--imagen {
-    display: block;
-    position: absolute;
-    margin: 80px;
-    bottom: 0%;
-    z-index: 3;
-  }
-  #nosotrosRecuadro #nosotros__recuadro {
-    position: absolute;
-    bottom: 30%;
-    z-index: 1;
-    margin: 0px;
-    padding: 52px 85px 48px 305px;
-    background-color: #cbffee;
-  }
-  #nosotrosRecuadro #nosotros__recuadro #nosotros__quote {
-    font-size: 27px;
-    line-height: 38px;
-  }
-  #nosotros__imagen2 {
-    display: none;
-  }
-  #nosotros__parrafo2 {
-    margin: 24px 35px;
-    font-size: 16px;
-    line-height: 22px;
-  }
-  #nosotros__botonProductos {
-    margin-left: 35px;
-    width: 200px;
-  }
-  #nosotros__imagen2--desktop {
-    display: block;
-    width: 408px;
-    height: 264px;
   }
   #contacto {
     display: -webkit-inline-box;
@@ -482,131 +312,53 @@ footer .redesFooter {
 }
 
 @media only screen and (min-width: 1024px) {
-  /*   //General
   #logo {
     height: 87px;
     width: 196px;
   }
-  .header__logoWhatsapp{
+  .header__logoWhatsapp {
     width: 40px;
     height: 40px;
   }
-
   footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
     padding-bottom: 85px;
-    .footer__logo {
-      width: 196px;
-      height: 87px;
-      margin-left: 70px;
-      margin-right: 100px;
-    }
-    .footer__enunciado {
-      font-size: 18px;
-    }
-    .footer__parrafo {
-      width: 280px;
-      margin-right: 70px;
-
-      font-size: 14px;
-      line-height: 20px;
-    }
-    .footer__infoContacto {
-      font-size: 20px;
-    }
-    .footer__infoContacto--whatsapp {
-      font-size: 18px;
-    }
-    .footer__redes {
-      font-size: 16px;
-    }
+    padding-top: 48px;
   }
-  
-  //Nosotros
-  #nosotros__presentación {
-    display: inline-flex;
-    margin: 48px 30px 0px 30px;
-    #nosotros__imagenPresentación {
-      display: block;
-    }
-    #nosotros__presentación--enunciado {
-      padding-right: 110px;
-      padding-bottom: 12px;
-
-      font-size: 30px;
-      line-height: 35px;
-    }
-    #nosotros__presentación--hr {
-      margin: 0px 0px 88px 35px;
-      width: 310px;
-    }
+  footer .footer__logo {
+    width: 196px;
+    height: 87px;
+    margin-left: 70px;
+    margin-right: 100px;
   }
-
-  .nosotrosArticle {
-    margin: 18px 35px 24px 80px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    #nosotros__imagen {
-      width: 408px;
-      height: 264px;
-    }
-    #nosotros__parrafo {
-      font-size: 16px;
-      line-height: 22px;
-    }
+  footer .footer__enunciado {
+    font-size: 18px;
   }
-
-  #nosotrosRecuadro {
-    position: relative;
-    height: 280px;
-    margin: 85px 30px 0px 30px;
-    #nosotros__recuadro--imagen {
-      display: block;
-      position: absolute;
-      margin: 80px;
-      bottom: 0%;
-      z-index: 3;
-    }
-    #nosotros__recuadro {
-      position: absolute;
-      bottom: 30%;
-      z-index: 1;
-      margin: 0px;
-      padding: 52px 85px 48px 305px;
-
-      background-color: #cbffee;
-      #nosotros__quote {
-        font-size: 27px;
-        line-height: 38px;
-      }
-    }
+  footer .footer__parrafo {
+    width: 280px;
+    margin-right: 70px;
+    font-size: 14px;
+    line-height: 20px;
   }
-
-  #nosotros__imagen2 {
-    display: none;
+  footer .footer__infoContacto {
+    font-size: 20px;
   }
-
-  #nosotros__parrafo2 {
-    margin: 24px 35px;
-
+  footer .footer__infoContacto--whatsapp {
+    font-size: 18px;
+  }
+  footer .footer__redes {
     font-size: 16px;
-    line-height: 22px;
   }
-
-  #nosotros__botonProductos {
-    margin-left: 35px;
-    width: 200px;
-  }
-
-  #nosotros__imagen2--desktop {
-    display: block;
-    width: 408px;
-    height: 264px;
-  }
-
+  /*  
   //Contacto
   #contacto {
     display: inline-flex;

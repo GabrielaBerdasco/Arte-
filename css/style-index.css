@@ -185,14 +185,14 @@
 
 #inicio__apartado #inicio__apartado--boton {
   margin-left: 76px;
-  min-width: 200px;
+  width: 200px;
   height: 32px;
   border: none;
   color: #f2f2f7;
   background-color: #414141;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1023.9px) {
   .inicio__carousel {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -306,11 +306,12 @@
   }
   #inicio__apartado {
     margin-left: 70px;
+    margin-right: 70px;
     padding-left: 0px;
     padding-bottom: 0px;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   #inicio__apartado #inicio__apartado--imagen {
     display: block;
@@ -380,6 +381,7 @@
     display: -ms-inline-flexbox;
     display: inline-flex;
     margin-left: 69px;
+    margin-right: 30px;
   }
   #inicio__LP #inicio__imagenLP--div .inicio__imagenLP--mobile {
     display: none;
@@ -437,9 +439,9 @@
     margin: 0px 70px 48px 70px;
     padding-left: 0px;
     padding-bottom: 0px;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   #inicio__apartado #inicio__apartado--imagen {
     display: block;
@@ -469,7 +471,7 @@
   }
   #inicio__apartado #inicio__apartado--formulario #inicio__apartado--boton {
     margin-left: 20px;
-    margin-right: 40px;
+    width: 180px;
   }
 }
 /*# sourceMappingURL=style-index.css.map */
