@@ -196,7 +196,7 @@
     background-color: #fff;
 
   }
-  .--cards-container h3{
+  .--cards-container .info-container-premium h3{
     width: 70%;
     font-size: .8rem;
     margin-left: 1rem;
