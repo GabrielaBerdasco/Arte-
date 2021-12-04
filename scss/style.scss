@@ -94,246 +94,80 @@ footer {
   height: 41px;
   width: 85px;
 }
-.header__logoWhatsapp{
+.header__logoWhatsapp {
   width: 30px;
   height: 30px;
-}
-
-
-//Contacto
-
-//Enunciado
-#contacto {
-  margin-top: 48px;
-  padding: 35px;
-
-  color: #f2f2f7;
-  background-color: $colorPrincipal;
-  #contacto__imagen {
-    display: none;
-  }
-  #contacto__enunciado {
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 33px;
-    letter-spacing: 0.02em;
-  }
-  #contacto__hr {
-    width: 148px;
-
-    border: 1px solid #f2f2f7;
-  }
-}
-
-//iframe
-#ubicacion {
-  width: 357px;
-  height: 328px;
-  margin: 35px;
-}
-
-//Formulario
-#contacto__formulario {
-  margin-left: 35px;
-  .contacto__formulario--etiqueta {
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 25px;
-    letter-spacing: 0.02em;
-  }
-  .contacto__formulario--input {
-    width: 348px;
-    height: 21px;
-
-    background-color: #e5e5ea;
-    border: none;
-  }
-}
-
-#contacto__formulario--hr {
-  margin-left: 35px;
-  width: 348px;
-
-  border: 1px solid #000000;
-}
-
-//Formas de pago
-#contacto__formaDePago {
-  margin: 8px 35px;
-
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
-  letter-spacing: 0.03em;
-}
-#contacto__parrafo {
-  margin: 8px 35px;
-
-  font-size: 13px;
-  line-height: 18px;
-  letter-spacing: 0.03em;
-}
-
-//Redes
-#contacto__redes {
-  margin: 16px 35px;
-
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 28px;
-  letter-spacing: 0.02em;
-}
-.contacto__logos {
-  margin-left: 35px;
-  height: 26.89px;
-  width: 26.89px;
-
-  background-color: #dadada;
 }
 
 //MEDIA QUERIES
 
 @media only screen and (min-width: 768px) and (max-width: 1023.9px) {
-    //General
-    #logo {
-      height: 57px;
-      width: 118px;
+  //General
+  #logo {
+    height: 57px;
+    width: 118px;
+  }
+  .header__logoWhatsapp {
+    width: 40px;
+    height: 40px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-top: 32px;
+    padding-top: 32px;
+    padding-bottom: 45px;
+    .footer__logo {
+      width: 142px;
+      height: 72px;
+      margin: 0px 30px 35px 50px;
     }
-    .header__logoWhatsapp{
-      width: 40px;
-      height: 40px;
+    .footer__enunciado {
+      font-size: 12px;
+      line-height: 16px;
     }
-  
-    footer {
-      display: flex;
-      flex-direction: row;
-      align-items: flex-end;
-      margin-top: 32px;
-      padding-top: 32px;
-      padding-bottom: 45px;
-      .footer__logo {
-        width: 142px;
-        height: 72px;
-        margin: 0px 30px 35px 50px;
-        }
-      .footer__enunciado {
-        font-size: 12px;
-        line-height: 16px;
-      }
-      .footer__parrafo {
-        width: 223px;
-        margin-right: 20px;
-  
-        font-size: 11px;
-        line-height: 15px;
-      }
-      .footer__infoContacto {
-        font-size: 12px;
-        margin-bottom: 0px;
-      }
-      .footer__infoContacto--hr{
-        margin: 0px;
-      }
-      .footer__infoContacto--whatsapp {
-        margin-top: 8px;
-        margin-bottom: 0px;
-        font-size: 12px;
-      }
-      .footer__redes {
-        margin: 0px;
-        font-size: 12px;
-        line-height: 28px;
-      }
-      .redesFooter {
-        width: 23px;
-        height: 23px;
-        margin-top: 8px;
-        margin-right: 17px;
-      }
+    .footer__parrafo {
+      width: 223px;
+      margin-right: 20px;
+
+      font-size: 11px;
+      line-height: 15px;
     }
-    
-    
-    //Contacto
-    #contacto {
-      display: inline-flex;
-      margin: 48px 30px 0px 30px;
-      padding: 5px 20px 0px 110px;
-      #contacto__imagen {
-        display: block;
-      }
-      div {
-        padding: 112px 110px;
-        #contacto__enunciado {
-          font-size: 30px;
-          line-height: 35px;
-        }
-        #contacto__hr {
-          width: 310px;
-        }
-      }
+    .footer__infoContacto {
+      font-size: 12px;
+      margin-bottom: 0px;
     }
-  
-    #contacto__section{
-      display: inline-flex;
-      #ubicacion {
-        width: 430px;
-        height: 388px;
-        margin-left: 100px;
-      }
-      #contacto__formulario {
-        margin: 88px 20px 5px 0px;
-        display: flex;
-        flex-direction: column;
-        .contacto__formulario--etiqueta {
-          margin-top: 8px;
-          margin-bottom: 8px;
-          font-size: 22px;
-          line-height: 30px;
-        }
-        .contacto__formulario--input {
-          width: 430px;
-          height: 32px;
-        }
-      }
-      
-      #contacto__formulario--hr {
-        margin-left: 0px;
-        margin-bottom: 32px;
-        width: 430px;
-      }
-      
-      #contacto__formaDePago {
-        margin: 8px 88px 8px 0px;
-  
-        font-size: 16px;
-        line-height: 22px;
-      }
-      #contacto__parrafo {
-        margin: 8px 100px 8px 0px;
-      
-        font-size: 16px;
-        line-height: 22px;
-      }
-      
-      #contacto__redes {
-        margin: 16px 0px;
-      
-        font-size: 18px;
-        line-height: 28px;
-      }
-      
+    .footer__infoContacto--hr {
+      margin: 0px;
     }
-  
+    .footer__infoContacto--whatsapp {
+      margin-top: 8px;
+      margin-bottom: 0px;
+      font-size: 12px;
+    }
+    .footer__redes {
+      margin: 0px;
+      font-size: 12px;
+      line-height: 28px;
+    }
+    .redesFooter {
+      width: 23px;
+      height: 23px;
+      margin-top: 8px;
+      margin-right: 17px;
+    }
+  }
 }
 
 @media only screen and (min-width: 1024px) {
   //General
-  
   #logo {
     height: 87px;
     width: 196px;
   }
-  .header__logoWhatsapp{
+  .header__logoWhatsapp {
     width: 40px;
     height: 40px;
   }
@@ -370,75 +204,4 @@ footer {
       font-size: 16px;
     }
   }
-/*  
-  //Contacto
-  #contacto {
-    display: inline-flex;
-    margin: 48px 30px 0px 30px;
-    padding: 5px 20px 0px 110px;
-    #contacto__imagen {
-      display: block;
-    }
-    div {
-      padding: 112px 110px;
-      #contacto__enunciado {
-        font-size: 30px;
-        line-height: 35px;
-      }
-      #contacto__hr {
-        width: 310px;
-      }
-    }
-  }
-
-  #contacto__section{
-    display: inline-flex;
-    #ubicacion {
-      width: 430px;
-      height: 388px;
-      margin-left: 100px;
-    }
-    #contacto__formulario {
-      margin: 88px 20px 5px 0px;
-      display: flex;
-      flex-direction: column;
-      .contacto__formulario--etiqueta {
-        margin-top: 8px;
-        margin-bottom: 8px;
-        font-size: 22px;
-        line-height: 30px;
-      }
-      .contacto__formulario--input {
-        width: 430px;
-        height: 32px;
-      }
-    }
-    
-    #contacto__formulario--hr {
-      margin-left: 0px;
-      margin-bottom: 32px;
-      width: 430px;
-    }
-    
-    #contacto__formaDePago {
-      margin: 8px 88px 8px 0px;
-
-      font-size: 16px;
-      line-height: 22px;
-    }
-    #contacto__parrafo {
-      margin: 8px 100px 8px 0px;
-    
-      font-size: 16px;
-      line-height: 22px;
-    }
-    
-    #contacto__redes {
-      margin: 16px 0px;
-    
-      font-size: 18px;
-      line-height: 28px;
-    }
-    
-  }
- */}
+}

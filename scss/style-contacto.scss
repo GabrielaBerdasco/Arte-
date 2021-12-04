@@ -1,1 +1,261 @@
+//Paleta de colores
+$colorPrincipal: #479db5;
+$colorSecundario: #747f82;
+$colorAcento: #db504a;
+$colorComplementario1: #cbffee;
+$colorComplementario2: #e3b505;
+
 //Contacto
+
+//Enunciado
+#contacto {
+  margin-top: 48px;
+  padding: 35px;
+
+  color: #f2f2f7;
+  background-color: $colorPrincipal;
+  #contacto__imagen {
+    display: none;
+  }
+  #contacto__enunciado {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+  }
+  #contacto__hr {
+    width: 148px;
+
+    border: 1px solid #f2f2f7;
+  }
+}
+
+//iframe
+#ubicacion {
+  width: 357px;
+  height: 328px;
+  margin: 35px;
+}
+
+//Formulario
+#contacto__formulario {
+  margin-left: 35px;
+  .contacto__formulario--etiqueta {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+  }
+  .contacto__formulario--input {
+    width: 348px;
+    height: 21px;
+
+    background-color: #e5e5ea;
+    border: none;
+  }
+}
+
+#contacto__formulario--hr {
+  margin-left: 35px;
+  width: 348px;
+
+  border: 1px solid #000000;
+}
+
+//Formas de pago
+#contacto__formaDePago {
+  margin: 8px 35px;
+
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+}
+#contacto__parrafo {
+  margin: 8px 35px;
+
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+}
+
+//Redes
+#contacto__redes {
+  margin: 16px 35px;
+
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+}
+.contacto__logos {
+  margin-left: 35px;
+  height: 26.89px;
+  width: 26.89px;
+}
+
+//MEDIA QUERIES
+
+@media only screen and (min-width: 768px) and (max-width: 1023.9px) {
+  //Contacto
+  #contacto {
+    display: inline-flex;
+    margin: 40px 70px 0px 70px;
+    padding: 5px 20px 0px 53px;
+    #contacto__imagen {
+      display: block;
+      margin-top: 10px;
+      width: 105px;
+      height: 162px;
+    }
+    div {
+      padding: 32px 70px 0px 70px;
+      #contacto__enunciado {
+        font-size: 19px;
+        line-height: 26px;
+      }
+      #contacto__hr {
+        width: 126px;
+      }
+    }
+  }
+
+  #contacto__section {
+    display: inline-flex;
+    #ubicacion {
+      width: 304px;
+      height: 284px;
+      margin-left: 70px;
+      margin-right: 20px;
+    }
+    #contacto__formulario {
+      margin: 55px 70px 5px 0px;
+      display: flex;
+      flex-direction: column;
+      .contacto__formulario--etiqueta {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 15px;
+        line-height: 20px;
+      }
+      .contacto__formulario--input {
+        width: 304px;
+        height: 24px;
+      }
+    }
+
+    #contacto__formulario--hr {
+      margin-left: 0px;
+      margin-bottom: 14px;
+      width: 304px;
+    }
+
+    #contacto__formaDePago {
+      margin: 0px 70px 8px 0px;
+
+      font-size: 12px;
+      line-height: 16px;
+    }
+    #contacto__parrafo {
+      margin: 8px 70px 8px 0px;
+
+      font-size: 12px;
+      line-height: 16px;
+    }
+
+    #contacto__redes {
+      margin: 0px 0px 18px 0px;
+
+      font-size: 12px;
+      line-height: 28px;
+    }
+    .contacto__logos {
+      margin-left: 0px;
+      margin-right: 18px;
+      height: 26.89px;
+      width: 26.89px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  //Contacto
+  #contacto {
+    display: inline-flex;
+    margin: 48px 70px 0px 70px;
+    padding: 5px 20px 0px 110px;
+    #contacto__imagen {
+      display: block;
+      width: 209px;
+      height: 320px;
+      padding-top: 30px;
+    }
+    div {
+      padding: 110px 85px 70px 112px;
+      #contacto__enunciado {
+        font-size: 30px;
+        line-height: 35px;
+      }
+      #contacto__hr {
+        width: 310px;
+      }
+    }
+  }
+
+  #contacto__section {
+    display: inline-flex;
+    #ubicacion {
+      width: 430px;
+      height: 388px;
+      margin-left: 100px;
+    }
+    #contacto__formulario {
+      margin: 48px 20px 5px 0px;
+      display: flex;
+      flex-direction: column;
+      .contacto__formulario--etiqueta {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 22px;
+        line-height: 30px;
+      }
+      .contacto__formulario--input {
+        width: 430px;
+        height: 32px;
+      }
+    }
+
+    #contacto__formulario--hr {
+      margin-left: 0px;
+      margin-bottom: 32px;
+      width: 430px;
+    }
+
+    #contacto__formaDePago {
+      margin: 8px 100px 8px 0px;
+
+      font-size: 16px;
+      line-height: 22px;
+    }
+    #contacto__parrafo {
+      margin: 8px 180px 8px 0px;
+
+      font-size: 16px;
+      line-height: 22px;
+    }
+
+    #contacto__redes {
+      margin: 16px 0px;
+
+      font-size: 18px;
+      line-height: 28px;
+    }
+    .contacto__logos {
+      margin-left: 0px;
+      margin-right: 24px;
+
+      height: 32px;
+      width: 32px;
+    }
+  }
+}
