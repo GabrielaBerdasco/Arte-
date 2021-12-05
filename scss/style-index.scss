@@ -10,194 +10,245 @@ $colorComplementario2: #e3b505;
 //Inicio
 //carousel
 .inicio__carousel {
-    margin-top: 48px;
-    margin-bottom: 20px;
-    padding: 48px 45px;
-  
-    color: #414141;
-    .inicio__carousel--imagen {
-      display: none;
-    }
-    .inicio__carousel--enunciado {
-      font-weight: bold;
-      font-size: 24px;
-      line-height: 33px;
-      letter-spacing: 0.02em;
-    }
-    .inicio__carousel--hr {
-      width: 148px;
-  
-      border: 1px solid #000000;
-    }
-    .inicio__carousel--parrafo {
-      font-size: 14px;
-      line-height: 19px;
-      letter-spacing: 0.02em;
-    }
-  }
-  
-  //Línea premium
-  #inicio__LP {
-    margin: 0px 35px;
-    color: #414141;
-    #inicio__imagenLP--div {
-      display: inline-flex;
-      .inicio__imagenLP--mobile {
-        padding-right: 12px;
-      }
-      .inicio__imagenLP--desktop {
-        display: none;
-      }
-    }
-    #inicio__LP--enunciado {
-      margin-top: 15px;
-      margin-bottom: 0px;
-  
-      font-size: 24px;
-      line-height: 33px;
-      letter-spacing: 0.02em;
-    }
-    #inicio__LP--hr {
-      margin-top: 0.5rem;
-      width: 197px;
-  
-      border: 1px solid #414141;
-    }
-    #inicio__LP--parrafo {
-      margin-right: 35px;
-      font-size: 14px;
-      line-height: 19px;
-      letter-spacing: 0.02em;
-    }
-    #inicio__LP--boton {
-      width: 90px;
-      height: 32px;
-  
-      background-color: #414141;
-      border: none;
-      a {
-        text-decoration: none;
-        color: #f2f2f7;
-      }
-    }
-  }
-  
-  //Clientes
-  #inicio__clientesDiv--imagenDesktop {
+  margin-top: 48px;
+  margin-bottom: 20px;
+  padding: 48px 45px;
+
+  color: #414141;
+  .inicio__carousel--imagen {
     display: none;
   }
-  #inicio__clientes {
-    padding: 35px;
-    margin-top: 18px;
-  
-    color: #f2f2f7;
-    background-color: #747f82;
-    #inicio__clientes--enunciado {
-      padding-right: 70px;
-  
-      font-weight: bold;
-      font-size: 24px;
-      line-height: 33px;
-      letter-spacing: 0.02em;
-    }
-    #inicio__clientes--hr {
-      width: 239px;
-      margin-top: 0;
-  
-      border: 1px solid #f2f2f7;
-    }
-    #inicio__clientes--div {
-      display: inline-flex;
-      #inicio__clientesDiv--imagen {
-        margin-right: 10px;
-        height: 102px;
-  
-        border-radius: 50%;
-      }
-      #inicio__clientesDiv--comentarios {
-        font-size: 14px;
-        line-height: 19px;
-        letter-spacing: 0.02em;
-      }
-    }
+  .inicio__carousel--enunciado {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.02em;
   }
-  
-  //Productos destacados
-  #inicio__productos {
-    margin-left: 35px;
-    margin-top: 48px;
-    #inicio__productos--enunciado {
-      margin-bottom: 16px;
-  
-      font-size: 21px;
-      font-weight: 700;
-      line-height: 29px;
-      letter-spacing: 0.02em;
-      text-align: center;
-  
-      color: #414141;
-    }
-    #inicio__productos--div {
-      height: 712px;
-      background-color: #f2f2f7;
-    }
+  .inicio__carousel--hr {
+    width: 148px;
+
+    border: 1px solid #000000;
   }
-  
-  //Apartado
-  #inicio__apartado {
-    padding-bottom: 40px;
-    padding-left: 35px;
-  
-    background-color: $colorAcento;
-    #inicio__apartado--imagen {
+  .inicio__carousel--parrafo {
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+  }
+}
+
+//Línea premium
+#inicio__LP {
+  margin: 0px 35px;
+  color: #414141;
+  #inicio__imagenLP--div {
+    display: inline-flex;
+    .inicio__imagenLP--mobile {
+      padding-right: 12px;
+    }
+    .inicio__imagenLP--desktop {
       display: none;
     }
-    #inicio__apartado--enunciado {
+  }
+  #inicio__LP--enunciado {
+    margin-top: 15px;
+    margin-bottom: 0px;
+
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+  }
+  #inicio__LP--hr {
+    margin-top: 0.5rem;
+    width: 197px;
+
+    border: 1px solid #414141;
+  }
+  #inicio__LP--parrafo {
+    margin-right: 35px;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+  }
+  #inicio__LP--boton {
+    width: 90px;
+    height: 32px;
+
+    background-color: #414141;
+    border: none;
+    a {
+      text-decoration: none;
       color: #f2f2f7;
-      margin: 0;
-      padding-top: 11px;
-  
-      font-weight: bold;
-      font-size: 25px;
-      line-height: 50px;
-      letter-spacing: 0.02em;
-    }
-    #inicio__apartado--hr {
-      width: 239px;
-      margin-top: 0;
-  
-      color: #f2f2f7;
-      border: 1px solid #f2f2f7;
-    }
-    #inicio__apartado--parrafo {
-      margin-right: 131px;
-  
-      font-size: 12px;
-      line-height: 16px;
-      letter-spacing: 0.02em;
-    }
-    #inicio__apartado--input {
-      width: 336px;
-      margin-bottom: 8px;
-  
-      border: none;
-      background-color: #f2f2f7;
-    }
-    #inicio__apartado--boton {
-      margin-left: 76px;
-      width: 200px;
-      height: 32px;
-  
-      border: none;
-      color: #f2f2f7;
-      background-color: #414141;
     }
   }
+}
 
-  
-  @media only screen and (min-width: 768px) and (max-width: 1023.9px) {
-//Inicio
-.inicio__carousel {
+//Clientes
+#inicio__clientesDiv--imagenDesktop {
+  display: none;
+}
+#inicio__clientes {
+  padding: 35px;
+  margin-top: 18px;
+
+  color: #f2f2f7;
+  background-color: #747f82;
+  #inicio__clientes--enunciado {
+    padding-right: 70px;
+
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+  }
+  #inicio__clientes--hr {
+    width: 239px;
+    margin-top: 0;
+
+    border: 1px solid #f2f2f7;
+  }
+  #inicio__clientes--div {
+    display: inline-flex;
+    #inicio__clientesDiv--imagen {
+      margin-right: 10px;
+      height: 102px;
+
+      border-radius: 50%;
+    }
+    #inicio__clientesDiv--comentarios {
+      font-size: 14px;
+      line-height: 19px;
+      letter-spacing: 0.02em;
+    }
+  }
+}
+
+//Productos destacados
+#inicio__productos {
+  margin-left: 0px;
+  margin-top: 48px;
+  #inicio__productos--enunciado {
+    margin-bottom: 16px;
+
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+    text-align: center;
+
+    color: #414141;
+  }
+  #inicio__productos--div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 32px;
+
+    background-color: #f2f2f7;
+    .productos__cards {
+      display: flex;
+      flex-direction: row;
+      width: 400px;
+      margin-left: 20px;
+      padding-top: 20px;
+      .productos__cards--imagenDesktop {
+        display: none;
+      }
+      .productos__cards--imagen {
+        width: 154px;
+        height: 134px;
+      }
+      div {
+        margin: 10px 5px 0px 10px;
+        .productos__cards--enunciado {
+          font-weight: 700;
+          font-size: 15px;
+          line-height: 20px;
+        }
+        .productos__cards--parrafo {
+          margin-bottom: 10px;
+          font-size: 11px;
+          line-height: 15px;
+        }
+        .productos__cards--hr {
+          width: 60px;
+          margin-top: 0px;
+
+          color: #000000;
+          border: 1px solid #000000;
+        }
+        .productos__cards--precio {
+          font-size: 20px;
+          line-height: 27px;
+        }
+      }
+    }
+    #productos__cards--boton {
+      margin-top: 32px;
+      width: 90px;
+      height: 32px;
+
+      color: #f2f2f7;
+      background-color: #414141;
+      border: none;
+    }
+  }
+}
+
+//Apartado
+#inicio__apartado {
+  padding-bottom: 40px;
+  padding-left: 35px;
+
+  background-color: $colorAcento;
+  #inicio__apartado--imagen {
+    display: none;
+  }
+  #inicio__apartado--enunciado {
+    color: #f2f2f7;
+    margin: 0;
+    padding-top: 11px;
+
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 50px;
+    letter-spacing: 0.02em;
+  }
+  #inicio__apartado--hr {
+    width: 239px;
+    margin-top: 0;
+
+    color: #f2f2f7;
+    border: 1px solid #f2f2f7;
+  }
+  #inicio__apartado--parrafo {
+    margin-right: 131px;
+
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+  }
+  #inicio__apartado--input {
+    width: 336px;
+    margin-bottom: 8px;
+
+    border: none;
+    background-color: #f2f2f7;
+  }
+  #inicio__apartado--boton {
+    margin-left: 76px;
+    width: 200px;
+    height: 32px;
+
+    border: none;
+    color: #f2f2f7;
+    background-color: #414141;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023.9px) {
+  //Inicio
+  .inicio__carousel {
     display: inline-flex;
     margin: 40px 60px;
     padding: 0px;
@@ -209,16 +260,16 @@ $colorComplementario2: #e3b505;
     }
     .inicio__carousel--divTexto {
       padding: 24px 80px 10px 49px;
-      .inicio__carousel--enunciado{
-          margin-bottom: 0px;
-          font-size: 16px;
-          line-height: 21px;
+      .inicio__carousel--enunciado {
+        margin-bottom: 0px;
+        font-size: 16px;
+        line-height: 21px;
       }
       .inicio__carousel--hr {
         width: 126px;
         margin-top: 0px;
       }
-      .inicio__carousel--parrafo{
+      .inicio__carousel--parrafo {
         font-size: 13px;
         line-height: 17px;
       }
@@ -255,7 +306,7 @@ $colorComplementario2: #e3b505;
         margin-right: 0px;
         padding-right: 50px;
       }
-      #inicio__LP--boton{
+      #inicio__LP--boton {
         height: 26px;
       }
     }
@@ -299,7 +350,7 @@ $colorComplementario2: #e3b505;
         #inicio__clientesDiv--comentarios {
           font-size: 12px;
           line-height: 16px;
-          h5{
+          h5 {
             margin-bottom: 0px;
           }
         }
@@ -307,13 +358,55 @@ $colorComplementario2: #e3b505;
     }
   }
 
-   #inicio__productos {
+  #inicio__productos {
     margin: 40px 70px;
     #inicio__productos--enunciado {
       margin-bottom: 13px;
 
       font-size: 20px;
       line-height: 40px;
+    }
+    #inicio__productos--div {
+      flex-wrap: wrap;
+      height: 440px;
+      .productos__cards {
+        width: 280px;
+        margin-left: 0px;
+        padding-top: 20px;
+        .productos__cards--imagenDesktop {
+          display: none;
+        }
+        .productos__cards--imagen {
+          width: 154px;
+          height: 134px;
+        }
+        div {
+          margin: 0px 5px 0px 10px;
+          .productos__cards--enunciado {
+            font-size: 14px;
+            line-height: 19px;
+          }
+          .productos__cards--parrafo {
+            margin-bottom: 7px;
+            font-size: 10px;
+            line-height: 12px;
+          }
+          .productos__cards--hr {
+            width: 60px;
+            margin-top: 0px;
+            margin-bottom: 7px;
+          }
+          .productos__cards--precio {
+            font-size: 17px;
+            line-height: 23px;
+          }
+        }
+      }
+      #productos__cards--boton {
+        margin-top: 40px;
+        width: 90px;
+        height: 30px;
+      }
     }
   }
 
@@ -329,48 +422,47 @@ $colorComplementario2: #e3b505;
       height: 130px;
       margin-top: 20px;
     }
-    div{
+    div {
       padding-left: 70px;
-    #inicio__apartado--enunciado {
-      padding-top: 16px;
+      #inicio__apartado--enunciado {
+        padding-top: 16px;
 
-      font-size: 24px;
-      line-height: 40px;
-    }
-    #inicio__apartado--hr {
-      width: 115px;
-      margin-bottom: 8px;
-    }
-    #inicio__apartado--parrafo {
-      margin-right: 30px;
-
-      font-size: 9px;
-      line-height: 12px;
-      color: #f2f2f7;
-
-    }
-    #inicio__apartado--formulario {
-      display: inline-flex;
-      padding-top: 8px;
-      padding-bottom: 16px;
-      #inicio__apartado--input {
-        height: 24px;
-        width: 200px;
+        font-size: 24px;
+        line-height: 40px;
       }
-      #inicio__apartado--boton {
-        margin-left: 20px;
-        margin-right: 40px;
-        min-width: 124px;
-        height: 24px;
+      #inicio__apartado--hr {
+        width: 115px;
+        margin-bottom: 8px;
+      }
+      #inicio__apartado--parrafo {
+        margin-right: 30px;
+
+        font-size: 9px;
+        line-height: 12px;
+        color: #f2f2f7;
+      }
+      #inicio__apartado--formulario {
+        display: inline-flex;
+        padding-top: 8px;
+        padding-bottom: 16px;
+        #inicio__apartado--input {
+          height: 24px;
+          width: 200px;
+        }
+        #inicio__apartado--boton {
+          margin-left: 20px;
+          margin-right: 40px;
+          width: 124px;
+          height: 24px;
+        }
       }
     }
   }
-  }
-  }
+}
 
-  @media only screen and (min-width: 1024px) {
-//Inicio
-.inicio__carousel {
+@media only screen and (min-width: 1024px) {
+  //Inicio
+  .inicio__carousel {
     display: inline-flex;
     margin: 48px 70px;
     padding: 0px;
@@ -455,8 +547,60 @@ $colorComplementario2: #e3b505;
       font-size: 32px;
       line-height: 40px;
     }
-  }
+    #inicio__productos--div {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      height: 600px;
+      padding-top: 20px;
+      padding-bottom: 12px;
 
+      background-color: #f2f2f7;
+      .productos__cards {
+        display: flex;
+        flex-direction: row;
+        width: 440px;
+        margin-left: 0px;
+        padding-top: 10px;
+        .productos__cards--imagenDesktop {
+          display: block;
+          width: 231px;
+          height: 200px;
+        }
+        .productos__cards--imagen {
+          display: none;
+        }
+        div {
+          margin: 0px 5px 0px 10px;
+          .productos__cards--enunciado {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 22px;
+          }
+          .productos__cards--parrafo {
+            margin-bottom: 10px;
+            font-size: 16px;
+            line-height: 20px;
+          }
+          .productos__cards--hr {
+            width: 90px;
+            margin-top: 0px;
+          }
+          .productos__cards--precio {
+            font-size: 22px;
+            line-height: 30px;
+          }
+        }
+      }
+      #productos__cards--boton {
+        margin-top: 32px;
+        margin-left: 470px;
+        width: 100px;
+        height: 32px;
+      }
+    }
+  }
   #inicio__apartado {
     margin: 0px 70px 48px 70px;
     padding-left: 0px;
@@ -493,4 +637,4 @@ $colorComplementario2: #e3b505;
       }
     }
   }
-  }
+}

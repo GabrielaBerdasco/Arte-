@@ -123,14 +123,14 @@
 }
 
 #inicio__productos {
-  margin-left: 35px;
+  margin-left: 0px;
   margin-top: 48px;
 }
 
 #inicio__productos #inicio__productos--enunciado {
   margin-bottom: 16px;
-  font-size: 21px;
   font-weight: 700;
+  font-size: 21px;
   line-height: 29px;
   letter-spacing: 0.02em;
   text-align: center;
@@ -138,8 +138,78 @@
 }
 
 #inicio__productos #inicio__productos--div {
-  height: 712px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+  padding-bottom: 32px;
   background-color: #f2f2f7;
+}
+
+#inicio__productos #inicio__productos--div .productos__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 400px;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+#inicio__productos #inicio__productos--div .productos__cards .productos__cards--imagenDesktop {
+  display: none;
+}
+
+#inicio__productos #inicio__productos--div .productos__cards .productos__cards--imagen {
+  width: 154px;
+  height: 134px;
+}
+
+#inicio__productos #inicio__productos--div .productos__cards div {
+  margin: 10px 5px 0px 10px;
+}
+
+#inicio__productos #inicio__productos--div .productos__cards div .productos__cards--enunciado {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+#inicio__productos #inicio__productos--div .productos__cards div .productos__cards--parrafo {
+  margin-bottom: 10px;
+  font-size: 11px;
+  line-height: 15px;
+}
+
+#inicio__productos #inicio__productos--div .productos__cards div .productos__cards--hr {
+  width: 60px;
+  margin-top: 0px;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+#inicio__productos #inicio__productos--div .productos__cards div .productos__cards--precio {
+  font-size: 20px;
+  line-height: 27px;
+}
+
+#inicio__productos #inicio__productos--div #productos__cards--boton {
+  margin-top: 32px;
+  width: 90px;
+  height: 32px;
+  color: #f2f2f7;
+  background-color: #414141;
+  border: none;
 }
 
 #inicio__apartado {
@@ -304,6 +374,49 @@
     font-size: 20px;
     line-height: 40px;
   }
+  #inicio__productos #inicio__productos--div {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 440px;
+  }
+  #inicio__productos #inicio__productos--div .productos__cards {
+    width: 280px;
+    margin-left: 0px;
+    padding-top: 20px;
+  }
+  #inicio__productos #inicio__productos--div .productos__cards .productos__cards--imagenDesktop {
+    display: none;
+  }
+  #inicio__productos #inicio__productos--div .productos__cards .productos__cards--imagen {
+    width: 154px;
+    height: 134px;
+  }
+  #inicio__productos #inicio__productos--div .productos__cards div {
+    margin: 0px 5px 0px 10px;
+  }
+  #inicio__productos #inicio__productos--div .productos__cards div .productos__cards--enunciado {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  #inicio__productos #inicio__productos--div .productos__cards div .productos__cards--parrafo {
+    margin-bottom: 7px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  #inicio__productos #inicio__productos--div .productos__cards div .productos__cards--hr {
+    width: 60px;
+    margin-top: 0px;
+    margin-bottom: 7px;
+  }
+  #inicio__productos #inicio__productos--div .productos__cards div .productos__cards--precio {
+    font-size: 17px;
+    line-height: 23px;
+  }
+  #inicio__productos #inicio__productos--div #productos__cards--boton {
+    margin-top: 40px;
+    width: 90px;
+    height: 30px;
+  }
   #inicio__apartado {
     margin-left: 70px;
     margin-right: 70px;
@@ -351,7 +464,7 @@
   #inicio__apartado div #inicio__apartado--formulario #inicio__apartado--boton {
     margin-left: 20px;
     margin-right: 40px;
-    min-width: 124px;
+    width: 124px;
     height: 24px;
   }
 }
@@ -434,6 +547,71 @@
     margin-bottom: 40px;
     font-size: 32px;
     line-height: 40px;
+  }
+  #inicio__productos #inicio__productos--div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 600px;
+    padding-top: 20px;
+    padding-bottom: 12px;
+    background-color: #f2f2f7;
+  }
+  #inicio__productos #inicio__productos--div .productos__cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 440px;
+    margin-left: 0px;
+    padding-top: 10px;
+  }
+  #inicio__productos #inicio__productos--div .productos__cards .productos__cards--imagenDesktop {
+    display: block;
+    width: 231px;
+    height: 200px;
+  }
+  #inicio__productos #inicio__productos--div .productos__cards .productos__cards--imagen {
+    display: none;
+  }
+  #inicio__productos #inicio__productos--div .productos__cards div {
+    margin: 0px 5px 0px 10px;
+  }
+  #inicio__productos #inicio__productos--div .productos__cards div .productos__cards--enunciado {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  #inicio__productos #inicio__productos--div .productos__cards div .productos__cards--parrafo {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  #inicio__productos #inicio__productos--div .productos__cards div .productos__cards--hr {
+    width: 90px;
+    margin-top: 0px;
+  }
+  #inicio__productos #inicio__productos--div .productos__cards div .productos__cards--precio {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  #inicio__productos #inicio__productos--div #productos__cards--boton {
+    margin-top: 32px;
+    margin-left: 470px;
+    width: 100px;
+    height: 32px;
   }
   #inicio__apartado {
     margin: 0px 70px 48px 70px;

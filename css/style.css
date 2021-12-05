@@ -162,6 +162,7 @@ footer .redesFooter {
   #logo {
     height: 87px;
     width: 196px;
+    margin-bottom: 13px;
   }
   .header__logoWhatsapp {
     width: 40px;
