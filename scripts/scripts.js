@@ -66,11 +66,12 @@ function filterCategory(){
 
 function filterCategoryClick(){
   let options = document.querySelectorAll('.option')
-  let current_page = 1;
+
 
   options.forEach((items) => {
     items.addEventListener('click', ()=>{
       arrNew = []
+      current_page = 1;
       productos.forEach((item) => {
         (item.categoria === items.innerText) ? item.clase= "show" : item.clase="hide";
         (items.innerText=="Todas") ? item.clase= "show" : undefined;
