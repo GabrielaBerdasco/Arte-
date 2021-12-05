@@ -28,7 +28,7 @@
 }
 
 #inicio__LP {
-  margin: 0px 35px;
+  margin: 0px 35px 0px 23px;
   color: #414141;
 }
 
@@ -110,6 +110,10 @@
   display: inline-flex;
 }
 
+#inicio__clientes #inicio__clientes--div #inicio__clientesDiv--imagenDesk2 {
+  display: none;
+}
+
 #inicio__clientes #inicio__clientes--div #inicio__clientesDiv--imagen {
   margin-right: 10px;
   height: 102px;
@@ -161,7 +165,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  width: 400px;
+  width: 380px;
   margin-left: 20px;
   padding-top: 20px;
 }
@@ -176,7 +180,7 @@
 }
 
 #inicio__productos #inicio__productos--div .productos__cards div {
-  margin: 10px 5px 0px 10px;
+  margin: 10px 0px 0px 10px;
 }
 
 #inicio__productos #inicio__productos--div .productos__cards div .productos__cards--enunciado {
@@ -354,6 +358,9 @@
   #sectionClientes #inicio__clientes #inicio__clientes--hr {
     width: 188px;
     margin-bottom: 7px;
+  }
+  #sectionClientes #inicio__clientes #inicio__clientes--div #inicio__clientesDiv--imagenDesk2 {
+    display: none;
   }
   #sectionClientes #inicio__clientes #inicio__clientes--div #inicio__clientesDiv--imagen {
     margin-right: 10px;
@@ -536,6 +543,15 @@
     font-size: 30px;
     line-height: 40px;
   }
+  #sectionClientes #inicio__clientes #inicio__clientes--div #inicio__clientesDiv--imagenDesk2 {
+    display: block;
+    margin-right: 10px;
+    height: 72px;
+    border-radius: 50%;
+  }
+  #sectionClientes #inicio__clientes #inicio__clientes--div #inicio__clientesDiv--imagen {
+    display: none;
+  }
   #sectionClientes #inicio__clientes #inicio__clientes--div #inicio__clientesDiv--comentarios {
     font-size: 16px;
     line-height: 22px;
@@ -624,7 +640,7 @@
   #inicio__apartado #inicio__apartado--imagen {
     display: block;
     width: 330px;
-    height: 280px;
+    height: 270px;
   }
   #inicio__apartado #inicio__apartado--enunciado {
     padding: 48px 30px 8px 0px;

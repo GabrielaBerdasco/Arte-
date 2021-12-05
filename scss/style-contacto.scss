@@ -34,65 +34,64 @@ $colorComplementario2: #e3b505;
 #ubicacion {
   width: 357px;
   height: 328px;
-  margin: 35px;
+  margin: 20px;
 }
 
 //Formulario
-#contacto__formulario {
-  margin-left: 35px;
-  .contacto__formulario--etiqueta {
+  #contacto__formulario {
+    margin-left: 22px;
+    .contacto__formulario--etiqueta {
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: 0.02em;
+    }
+    .contacto__formulario--input {
+      width: 348px;
+      height: 21px;
+
+      background-color: #e5e5ea;
+      border: none;
+    }
+  }
+
+  #contacto__formulario--hr {
+    margin-left: 22px;
+    width: 348px;
+
+    border: 1px solid #000000;
+  }
+
+  //Formas de pago
+  #contacto__formaDePago {
+    margin: 8px 22px;
+
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+  }
+  #contacto__parrafo {
+    margin: 8px 22px;
+
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+  }
+
+  //Redes
+  #contacto__redes {
+    margin: 16px 22px;
     font-weight: bold;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 28px;
     letter-spacing: 0.02em;
   }
-  .contacto__formulario--input {
-    width: 348px;
-    height: 21px;
-
-    background-color: #e5e5ea;
-    border: none;
+  .contacto__logos {
+    margin-left: 22px;
+    height: 26.89px;
+    width: 26.89px;
   }
-}
-
-#contacto__formulario--hr {
-  margin-left: 35px;
-  width: 348px;
-
-  border: 1px solid #000000;
-}
-
-//Formas de pago
-#contacto__formaDePago {
-  margin: 8px 35px;
-
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
-  letter-spacing: 0.03em;
-}
-#contacto__parrafo {
-  margin: 8px 35px;
-
-  font-size: 13px;
-  line-height: 18px;
-  letter-spacing: 0.03em;
-}
-
-//Redes
-#contacto__redes {
-  margin: 16px 35px;
-
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 28px;
-  letter-spacing: 0.02em;
-}
-.contacto__logos {
-  margin-left: 35px;
-  height: 26.89px;
-  width: 26.89px;
-}
 
 //MEDIA QUERIES
 

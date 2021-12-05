@@ -38,7 +38,8 @@ $colorComplementario2: #e3b505;
 
 //Línea premium
 #inicio__LP {
-  margin: 0px 35px;
+  margin: 0px 35px 0px 23px;
+
   color: #414141;
   #inicio__imagenLP--div {
     display: inline-flex;
@@ -108,6 +109,9 @@ $colorComplementario2: #e3b505;
   }
   #inicio__clientes--div {
     display: inline-flex;
+    #inicio__clientesDiv--imagenDesk2 {
+      display: none;
+    }
     #inicio__clientesDiv--imagen {
       margin-right: 10px;
       height: 102px;
@@ -148,7 +152,7 @@ $colorComplementario2: #e3b505;
     .productos__cards {
       display: flex;
       flex-direction: row;
-      width: 400px;
+      width: 380px;
       margin-left: 20px;
       padding-top: 20px;
       .productos__cards--imagenDesktop {
@@ -159,7 +163,7 @@ $colorComplementario2: #e3b505;
         height: 134px;
       }
       div {
-        margin: 10px 5px 0px 10px;
+        margin: 10px 0px 0px 10px;
         .productos__cards--enunciado {
           font-weight: 700;
           font-size: 15px;
@@ -343,6 +347,9 @@ $colorComplementario2: #e3b505;
         margin-bottom: 7px;
       }
       #inicio__clientes--div {
+        #inicio__clientesDiv--imagenDesk2 {
+          display: none;
+        }
         #inicio__clientesDiv--imagen {
           margin-right: 10px;
           height: 50px;
@@ -531,6 +538,16 @@ $colorComplementario2: #e3b505;
         line-height: 40px;
       }
       #inicio__clientes--div {
+        #inicio__clientesDiv--imagenDesk2 {
+          display: block;
+          margin-right: 10px;
+          height: 72px;
+
+          border-radius: 50%;
+        }
+        #inicio__clientesDiv--imagen {
+          display: none;
+        }
         #inicio__clientesDiv--comentarios {
           font-size: 16px;
           line-height: 22px;
@@ -609,7 +626,7 @@ $colorComplementario2: #e3b505;
     #inicio__apartado--imagen {
       display: block;
       width: 330px;
-      height: 280px;
+      height: 270px;
     }
     #inicio__apartado--enunciado {
       padding: 48px 30px 8px 0px;

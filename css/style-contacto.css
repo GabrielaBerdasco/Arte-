@@ -24,11 +24,11 @@
 #ubicacion {
   width: 357px;
   height: 328px;
-  margin: 35px;
+  margin: 20px;
 }
 
 #contacto__formulario {
-  margin-left: 35px;
+  margin-left: 22px;
 }
 
 #contacto__formulario .contacto__formulario--etiqueta {
@@ -46,13 +46,13 @@
 }
 
 #contacto__formulario--hr {
-  margin-left: 35px;
+  margin-left: 22px;
   width: 348px;
   border: 1px solid #000000;
 }
 
 #contacto__formaDePago {
-  margin: 8px 35px;
+  margin: 8px 22px;
   font-weight: 600;
   font-size: 15px;
   line-height: 20px;
@@ -60,14 +60,14 @@
 }
 
 #contacto__parrafo {
-  margin: 8px 35px;
+  margin: 8px 22px;
   font-size: 13px;
   line-height: 18px;
   letter-spacing: 0.03em;
 }
 
 #contacto__redes {
-  margin: 16px 35px;
+  margin: 16px 22px;
   font-weight: bold;
   font-size: 18px;
   line-height: 28px;
@@ -75,7 +75,7 @@
 }
 
 .contacto__logos {
-  margin-left: 35px;
+  margin-left: 22px;
   height: 26.89px;
   width: 26.89px;
 }

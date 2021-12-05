@@ -7,108 +7,107 @@ $colorAcento: #db504a;
 $colorComplementario1: #cbffee;
 $colorComplementario2: #e3b505;
 
-
 //Nosotros
 
 #nosotros__presentación {
-    margin-top: 48px;
-    padding-bottom: 88px;
-    background-color: $colorAcento;
-    #nosotros__imagenPresentación {
-      display: none;
-    }
-    #nosotros__presentación--enunciado {
-      padding: 88px 35px 16px 35px;
-  
-      font-weight: bold;
-      font-size: 21px;
-      line-height: 29px;
-      letter-spacing: 0.02em;
-  
-      color: #f2f2f7;
-    }
-    #nosotros__presentación--hr {
-      margin-left: 35px;
-      width: 148px;
-  
-      background-color: #f2f2f7;
-      border: 1px solid #f2f2f7;
-    }
-  }
-  
-  #nosotros__imagen {
-    margin: 48px 35px 24px 35px;
-    width: 358px;
-    height: 214px;
-  
-    background-color: #c4c4c4;
-  }
-  
-  #nosotros__imagen--tablet{
+  margin-top: 48px;
+  padding-bottom: 88px;
+  background-color: $colorAcento;
+  #nosotros__imagenPresentación {
     display: none;
   }
-  
-  #nosotros__parrafo {
-    margin: 0px 35px;
-  
-    font-size: 14px;
-    line-height: 19px;
-    letter-spacing: 0.02em;
-  
-    color: #333333;
-  }
-  
-  #nosotros__recuadro--imagen {
-    display: none;
-  }
-  #nosotros__recuadro {
-    margin: 32px 0px;
-    padding: 56px 35px;
-  
-    background-color: #f2f2f7;
-    #nosotros__quote {
-      font-size: 23px;
-      line-height: 31px;
-      letter-spacing: 0.02em;
-  
-      color: #333333;
-    }
-  }
-  
-  #nosotros__imagen2 {
-    margin-left: 35px;
-    width: 358px;
-    height: 214px;
-  }
-  
-  #nosotros__parrafo2 {
-    margin: 24px 35px;
-  
-    font-size: 14px;
-    line-height: 19px;
-    letter-spacing: 0.02em;
-  
-    color: #333333;
-  }
-  
-  #nosotros__botonProductos {
-    margin-left: 130px;
-    width: 169px;
-    height: 32px;
-  
-    background-color: #414141;
-    color: #f2f2f7;
-    border: none;
-    font-size: 16px;
-    line-height: 22px;
-    letter-spacing: 0.02em;
-  }
-  
-  #nosotros__imagen2--desktop {
-    display: none;
-  }
+  #nosotros__presentación--enunciado {
+    padding: 88px 35px 16px 35px;
 
-  @media only screen and (min-width: 768px) and (max-width: 1023.9px) {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+
+    color: #f2f2f7;
+  }
+  #nosotros__presentación--hr {
+    margin-left: 35px;
+    width: 148px;
+
+    background-color: #f2f2f7;
+    border: 1px solid #f2f2f7;
+  }
+}
+
+#nosotros__imagen {
+  margin: 48px 19px 24px 23px;
+  width: 358px;
+  height: 214px;
+
+  background-color: #c4c4c4;
+}
+
+#nosotros__imagen--tablet {
+  display: none;
+}
+
+#nosotros__parrafo {
+  margin: 0px 35px;
+
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+
+  color: #333333;
+}
+
+#nosotros__recuadro--imagen {
+  display: none;
+}
+#nosotros__recuadro {
+  margin: 32px 0px;
+  padding: 56px 35px;
+
+  background-color: #f2f2f7;
+  #nosotros__quote {
+    font-size: 23px;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+
+    color: #333333;
+  }
+}
+
+#nosotros__imagen2 {
+  margin-left: 35px;
+  width: 358px;
+  height: 214px;
+}
+
+#nosotros__parrafo2 {
+  margin: 24px 35px;
+
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+
+  color: #333333;
+}
+
+#nosotros__botonProductos {
+  margin-left: 130px;
+  width: 169px;
+  height: 32px;
+
+  background-color: #414141;
+  color: #f2f2f7;
+  border: none;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+}
+
+#nosotros__imagen2--desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023.9px) {
   #nosotros__presentación {
     display: flex;
     margin: 40px 70px 0px 70px;
@@ -138,7 +137,7 @@ $colorComplementario2: #e3b505;
     #nosotros__imagen {
       display: none;
     }
-    #nosotros__imagen--tablet{
+    #nosotros__imagen--tablet {
       display: block;
       margin: 15px;
       width: 379px;
@@ -197,19 +196,16 @@ $colorComplementario2: #e3b505;
 
     font-size: 14px;
     line-height: 18px;
-
   }
 
   #nosotros__imagen2--desktop {
     display: block;
     width: 306px;
     height: 164px;
-
   }
-  }
+}
 
-
-  @media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   #nosotros__presentación {
     display: inline-flex;
     margin: 48px 70px 0px 70px;
@@ -238,7 +234,7 @@ $colorComplementario2: #e3b505;
       width: 408px;
       height: 264px;
     }
-    #nosotros__imagen--tablet{
+    #nosotros__imagen--tablet {
       display: none;
     }
     #nosotros__parrafo {
@@ -294,5 +290,4 @@ $colorComplementario2: #e3b505;
     width: 408px;
     height: 264px;
   }
-
-  }
+}
