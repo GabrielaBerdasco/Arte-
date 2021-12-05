@@ -1,0 +1,125 @@
+
+
+@media screen and (min-width: 987px){
+
+  .product-box--filter--display h2{
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  .product-box--filter--display h3{
+    margin: .6rem 0;
+    font-size: 1.2rem;
+    font-weight: bolder;
+  }
+  .product-box--filter--display hr{
+    padding: 0;
+    color: black;
+    background-color: black;
+    border-color: black;
+  }
+  .main__container--info .--info-container{
+    width: 80%;
+  }
+  .--info-container h2{
+    font-size: 1.8rem;
+  }
+  .--info-container p{
+    font-size: 1rem;
+  }
+  .--product-container{
+    width: 200px;
+    height: 350px;
+  }
+  
+  .pagenumbers{
+    justify-content: flex-end;
+    margin-right: 6rem;
+  }
+  .main__container--premium-box .salient-products{
+    padding: 3rem 6rem;
+  }
+  .product-box--filter--display{
+    margin-left: 4rem;
+  }
+  .--cards-premium{
+    width: 90%;
+    grid-gap: 1rem;
+  }
+
+}
+
+@media screen and (min-width: 1148px){
+  .main__container{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main__container--info .--info-container{
+    width: 80%;
+  }
+  .--info-container h2{
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+  .--info-container p{
+    font-size: 1rem;
+    padding: .3rem 2rem;
+  }
+
+  .--product-container{
+    width: 250px;
+    height: 350px;
+  }
+  .card-container .card-img img{
+    width: 250px;
+    height: 200px;
+  }
+  .pagenumbers{
+    justify-content: flex-end;
+    margin-right: 4rem;
+  }
+
+  /* Premium */
+  .card-container-premium-page{
+    margin-left: 5rem;
+  }
+
+  .main__container--premium-box .salient-products{
+    padding: 4rem 8rem;
+  }
+  .product-box--filter--display{
+    margin-left: 4rem;
+  }
+  .--cards-container{
+    height: 150px;
+  }
+  .--cards-premium .--cards-container h3{
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 1343px){
+
+  .--info-container h2{
+    width: 70%;
+    font-size: 2.1rem;
+    line-height: 1.2;
+  }
+  .--info-container p{
+    width: 70%;
+    font-size: 1rem;
+    padding: .1rem 2rem;
+  }
+  .--info-container hr{
+    margin: .5rem 2rem;
+  }
+
+}
+@media screen and (min-width: 1494px){
+  .product-box--filter--display{
+    margin-left: 4.5rem;
+  }
+  .--product-container{
+    width: 290px;
+  }
+}

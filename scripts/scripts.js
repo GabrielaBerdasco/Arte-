@@ -5,8 +5,13 @@ const page_numbers = document.querySelector('.pagenumbers')
 let current_page = 1;
 let rows = 6;
 
+let arrNew = [];
+productos.forEach((item) => {
+  arrNew.push(item)
+});
+
 function displayProducts(items, wrapper, rows_per_page, page){
-  let totalPages = Math.ceil(productos.length / rows)
+  totalPages = Math.ceil(arrNew.length / rows)
   wrapper.innerHTML = "";
   page--;
 
@@ -37,19 +42,15 @@ function displayProducts(items, wrapper, rows_per_page, page){
   pagesChange(current_page, totalPages)
 }
 
-let arrNew = [];
-
-
 
 function filterCategory(){
   let option = document.querySelector('.product-options')
   let nextPageBtn = document.querySelector('.next')
 
-
-
   option.addEventListener('change', ()=>{
     arrNew = []
-    let current_page = 1;
+    current_page = 1;
+    totalPages = Math.ceil(arrNew.length / rows)
 
     productos.forEach((item) => {
       (item.categoria === option.value) ? item.clase= "show" : item.clase="hide";
@@ -58,12 +59,34 @@ function filterCategory(){
       (item.clase=="show") ? displayProducts(arrNew, list_element, rows, current_page) : undefined;
 
     });
-    totalPages2 = Math.ceil(arrNew.length / rows)
-    pagesChange(current_page, totalPages2)
-
   })
+  totalPages = Math.ceil(arrNew.length / rows)
+  pagesChange(current_page, totalPages)
 }
 
+function filterCategoryClick(){
+  let options = document.querySelectorAll('.option')
+
+
+  options.forEach((items) => {
+    items.addEventListener('click', ()=>{
+      arrNew = []
+      current_page = 1;
+      productos.forEach((item) => {
+        (item.categoria === items.innerText) ? item.clase= "show" : item.clase="hide";
+        (items.innerText=="Todas") ? item.clase= "show" : undefined;
+        (item.clase=="show") ? arrNew.push(item) : arrNew;
+        (item.clase=="show") ? displayProducts(arrNew, list_element, rows, current_page) : undefined;
+
+      });
+      totalPages = Math.ceil(arrNew.length / rows)
+      pagesChange(current_page, totalPages)
+  });
+
+})
+}
+
+filterCategoryClick()
 
 const productPremium = document.querySelector('.salient-products')
 
@@ -86,18 +109,15 @@ function showPremium(array){
 
       productPremium.appendChild(div_premium)
     }
-
   })
 }
 
 function nextPage(){
     let nextPageBtn = document.querySelector('.next')
-    let totalPages = Math.ceil(productos.length / rows)
     nextPageBtn.addEventListener('click', ()=>{
       (current_page === totalPages) ? nextPageBtn.disabled : ++current_page
-      displayProducts(productos, list_element, rows, current_page)
+      displayProducts(arrNew, list_element, rows, current_page)
     })
-
 }
 
 
@@ -105,9 +125,10 @@ function backPage(){
   let backPage = document.querySelector('.back')
   backPage.addEventListener('click', ()=>{
     (current_page === 1) ? backPage.disabled : --current_page
-    displayProducts(productos, list_element, rows, current_page);
+    displayProducts(arrNew, list_element, rows, current_page);
   })
 }
+
 
 function addOption(array){
   let arr =["Todas"]
@@ -131,7 +152,7 @@ function pagesChange(current_page, totalPages){
 
 
 
-displayProducts(productos, list_element, rows, current_page)
+displayProducts(arrNew, list_element, rows, current_page)
 filterCategory()
 addOption(productos)
 showPremium(productos)

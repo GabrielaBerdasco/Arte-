@@ -1,0 +1,253 @@
+
+@media screen and (min-width: 740px){
+  .main__container{
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+  }
+  .main__container--info{
+    width: 90%;
+    display: flex;
+    grid-column: 1/3;
+    align-items: center;
+  }
+  .main__container .product-box--filter{
+    grid-column: 1/2;
+  }
+  .main__container .main__container--product-box{
+    grid-column: 2/3;
+  }
+  .main__container .main__container--premium-box,
+  .main__container #inicio__apartado{
+    width: 90%;
+    grid-column: 1/3;
+    justify-content: center;
+    margin: 1rem auto;
+  }
+
+  .main__container--info .--info-container{
+    width: 80%;
+    height: 230px;
+  }
+  .main__container--info .img-container{
+    width: 280px;
+
+
+  }
+  .main__container--info .img-container .img{
+    width: 300px;
+    height: 230px;
+    background-image: url("./assets/Edit_handmade 1.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+   .--info-container h2{
+    width: 85%;
+    margin: .5rem 0;
+    padding: 1.2rem 0 0 2rem;
+    font-size: 1.5rem;
+  }
+  .--info-container p{
+    width: 85%;
+    margin-bottom: .2rem;
+    font-size: .8rem;
+  }
+  .--info-container hr{
+    margin: 0 2rem;
+    padding: 0;
+    color: black;
+    border-color: black;
+  }
+  .salient-products-title{
+    display: flex;
+    align-items: center;
+  }
+  .salient-products-title hr{
+    display: block;
+    width: 80%;
+    padding: 0;
+    margin: 0;
+    color: black;
+    border-color: black;
+    background-color: black;
+  }
+  .salient-products-title h2{
+    width: 100%;;
+  }
+  .main__container--premium-box .salient-products{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 2rem;
+
+  }
+  .main__container--premium-box .salient-products .--product-container-premium{
+    width: 50%;
+  }
+  .card-container-premium .card-info .card-description{
+    height: auto;
+  }
+  .product-box--filter{
+    display: none;
+  }
+  .product-box--filter--display{
+    display: block;
+    margin-left: 3rem;
+  }
+  .product-box--filter--display h2{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: .3rem;
+  }
+  .product-box--filter--display h3{
+    margin: .5rem 0;
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+  .product-box--filter--display h3:hover{
+    cursor: pointer;
+  }
+  .product-box--filter--display hr{
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    color: black;
+    background-color: black;
+    border-color: black;
+  }
+
+  .pagenumbers{
+    justify-content: flex-end;
+    margin-right: 5rem;
+  }
+  /* Línea Premium */
+  .premium__container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .premium__container--info{
+    grid-column: 1/7;
+    width: 90%;
+    height: 230px;
+    margin: 2rem auto 1rem auto;
+  }
+  .--premium-info{
+    padding: 1.5rem 3rem;
+  }
+  .premium__container--info .img-container-premium{
+    display: block;
+    width: 240px;
+    height: 230px;
+    margin-left: 2rem;
+    background-image: url("./assets/Edit_Businessman 1.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .premium__container--info .img-container-premium .img{
+    width: 210px;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+
+  .--cards-premium{
+    width: 90%;
+    display: grid;
+    grid-gap: .5rem;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto 1rem auto;
+    justify-items: center;
+    padding: 0;
+    overflow: none;
+  }
+  .--cards-container{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    padding: 4rem 0;
+  }
+  .--cards-container .info-container-premium{
+    width: 90%;
+
+  }
+
+  .--cards-container .img-container-premium-slide1,
+  .--cards-container .img-container-premium-slide2{
+    display: block;
+    width: 140px;
+    height: 128px;
+    margin-left: 1rem;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .--cards-container .img-container-premium-slide1{
+    grid-column: 1/2;
+    background-image: url("./assets/Edit_botella vino 1.png");
+  }
+  .img-container-premium-slide2{
+    grid-column: 2/3;
+    background-image: url("./assets/edit_logo aqui 1.png");
+  }
+  .--cards-container hr,
+  .--cards-container hr{
+    display: block;
+    width: 100px;
+    padding: 0;
+    margin-left: 1rem;
+    border-color: #fff;
+    background-color: #fff;
+
+  }
+  .--cards-container .info-container-premium h3{
+    width: 70%;
+    font-size: .8rem;
+    margin-left: 1rem;
+  }
+  .product-box--filter{
+    grid-column: 1/2;
+  }
+  .container-premium{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 1rem;
+  }
+  .container-premium .product-box--filter--display{
+    grid-column: 1/3;
+  }
+  .container-premium .main__container--premium-box{
+    grid-column: 3/9;
+  }
+
+  .card-container-premium-page{
+    display: flex;
+    margin: 0 auto;
+
+  }
+  .card-container-premium-page .card-img{
+    width: 300px;
+  }
+
+  .card-container-premium-page img{
+    width: 250px;
+    height: 253px;
+  }
+  .card-img h5{
+    display: none;
+  }
+  .card-container-premium-page .card-info .card-title,
+  .card-container-premium-page .card-info .card-description,
+  .card-container-premium-page .card-info .card-price,
+  .card-container-premium-page .card-info hr{
+    margin-left: 1rem;
+  }
+  .card-container-premium-page .card-info .card-description{
+    height: 80px;
+  }
+  #inicio__apartado{
+    width: 90%;
+    margin: 1rem auto;
+  }
+}

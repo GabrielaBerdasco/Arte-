@@ -10,7 +10,9 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="./style-products.css">
+  <link rel="stylesheet" href="./style-mobile.css">
+  <link rel="stylesheet" href="./style-tablet.css">
+  <link rel="stylesheet" href="./style-desktop.css">
 </head>
 
 <body>
@@ -49,11 +51,13 @@
 
   <main class="main__container">
     <section class="main__container--info">
-      <div class="--info">
-        <h2>Productos hechos a mano, hechos con el corazón</h2>
-        <hr>
-        <p>Ofrecemos la posibilidad de crear regalos a medida según la necesidad de nuestros clientes. Contamos con
-          nuestro propio taller que nos permite fabricar regalos de increíble valor visual a bajo costo.</p>
+      <div class="img-container">
+          <div class="img"></div>
+      </div>
+      <div class="--info-container">
+          <h2>Productos hechos a mano, hechos con el corazón</h2>
+          <hr>
+          <p>Ofrecemos la posibilidad de crear regalos a medida según la necesidad de nuestros clientes. Contamos con nuestro propio taller que nos permite fabricar regalos de increíble valor visual a bajo costo.</p>
       </div>
     </section>
     <div class="product-box--filter">
@@ -61,6 +65,18 @@
       <select class="product-options" name="products">
         <!-- Van las opciones automáticas directo del JSON -->
       </select>
+    </div>
+    <div class="product-box--filter--display hide">
+      <h2>Categorías</h2>
+      <hr>
+      <h3 class="option">Todas</h3>
+      <hr>
+      <h3 class="option">Hogar</h3>
+      <hr>
+      <h3 class="option">Decoracion</h3>
+      <hr>
+      <h3 class="option">Accesorios</h3>
+      <hr>
     </div>
     <section class="main__container--products-box">
 
@@ -84,7 +100,7 @@
     </section>
     <section class="main__container--premium-box">
       <div class="salient-products-title">
-        <h2>Nuestros Productos Destacados</h2>
+         <hr class="hide"> <h2>Nuestros Productos Destacados</h2> <hr class="hide">
       </div>
       <div class="salient-products">
         <!-- Productos Premium -->
