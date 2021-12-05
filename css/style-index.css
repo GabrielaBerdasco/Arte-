@@ -207,7 +207,7 @@
   line-height: 27px;
 }
 
-#inicio__productos #inicio__productos--div #productos__cards--boton {
+.productos__cards--boton {
   margin-top: 32px;
   width: 90px;
   height: 32px;
@@ -419,7 +419,7 @@
     font-size: 17px;
     line-height: 23px;
   }
-  #inicio__productos #inicio__productos--div #productos__cards--boton {
+  #inicio__productos #inicio__productos--div .productos__cards--boton {
     margin-top: 40px;
     width: 90px;
     height: 30px;
@@ -623,7 +623,7 @@
     font-size: 22px;
     line-height: 30px;
   }
-  #inicio__productos #inicio__productos--div #productos__cards--boton {
+  #inicio__productos #inicio__productos--div .productos__cards--boton {
     margin-top: 32px;
     margin-left: 470px;
     width: 100px;

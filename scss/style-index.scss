@@ -187,16 +187,16 @@ $colorComplementario2: #e3b505;
         }
       }
     }
-    #productos__cards--boton {
-      margin-top: 32px;
-      width: 90px;
-      height: 32px;
-
-      color: #f2f2f7;
-      background-color: #414141;
-      border: none;
-    }
   }
+}
+.productos__cards--boton {
+  margin-top: 32px;
+  width: 90px;
+  height: 32px;
+
+  color: #f2f2f7;
+  background-color: #414141;
+  border: none;
 }
 
 //Apartado
@@ -409,7 +409,7 @@ $colorComplementario2: #e3b505;
           }
         }
       }
-      #productos__cards--boton {
+      .productos__cards--boton {
         margin-top: 40px;
         width: 90px;
         height: 30px;
@@ -610,7 +610,7 @@ $colorComplementario2: #e3b505;
           }
         }
       }
-      #productos__cards--boton {
+      .productos__cards--boton {
         margin-top: 32px;
         margin-left: 470px;
         width: 100px;
