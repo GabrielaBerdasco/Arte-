@@ -9,7 +9,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style-index.css">
   <link rel="stylesheet" href="./style-mobile.css">
   <link rel="stylesheet" href="./style-tablet.css">
   <link rel="stylesheet" href="./style-desktop.css">
@@ -106,16 +107,20 @@
         <!-- Productos Premium -->
       </div>
     </section>
-    <aside id="inicio__apartado">
-      <h3 id="inicio__apartado--enunciado">Enterate de más</h3>
-      <hr id="inicio__apartado--hr">
-      <p id="inicio__apartado--parrafo">Recibí todas nuestras noticias, promociones y otras ventajas exclusivas</p>
-      <form action="">
-        <input type="email" id="inicio__apartado--input">
-        <button id="inicio__apartado--boton">Suscribirme</button>
-      </form>
-    </aside>
   </main>
+  <aside class="inicio__apartado">
+    <img src="./assets/Pareja celular 1.png" alt="Dos personas mirando celular" class="inicio__apartado--imagen">
+    <div>
+      <h3 class="inicio__apartado--enunciado">Enterate de más</h3>
+      <hr class="inicio__apartado--hr">
+      <p class="inicio__apartado--parrafo">Recibí todas nuestras noticias, promociones y otras ventajas exclusivas</p>
+      <form action="https://formsubmit.co/arteymas.art@gmail.com" method="POST" class="inicio__apartado--formulario">
+        <input type="email" name="email" placeholder="Email" class="inicio__apartado--input" required>
+        <input type="hidden" name="_subject" value="Nuevo email!">
+        <button class="inicio__apartado--boton">Suscribirme</button>
+      </form>
+    </div>
+  </aside>
 
 
   <footer>

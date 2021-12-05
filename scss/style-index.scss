@@ -200,15 +200,15 @@ $colorComplementario2: #e3b505;
 }
 
 //Apartado
-#inicio__apartado {
+.inicio__apartado {
   padding-bottom: 40px;
   padding-left: 35px;
 
   background-color: $colorAcento;
-  #inicio__apartado--imagen {
+  .inicio__apartado--imagen {
     display: none;
   }
-  #inicio__apartado--enunciado {
+  .inicio__apartado--enunciado {
     color: #f2f2f7;
     margin: 0;
     padding-top: 11px;
@@ -218,28 +218,28 @@ $colorComplementario2: #e3b505;
     line-height: 50px;
     letter-spacing: 0.02em;
   }
-  #inicio__apartado--hr {
+  .inicio__apartado--hr {
     width: 239px;
     margin-top: 0;
 
     color: #f2f2f7;
     border: 1px solid #f2f2f7;
   }
-  #inicio__apartado--parrafo {
+  .inicio__apartado--parrafo {
     margin-right: 131px;
 
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.02em;
   }
-  #inicio__apartado--input {
+  .inicio__apartado--input {
     width: 336px;
     margin-bottom: 8px;
 
     border: none;
     background-color: #f2f2f7;
   }
-  #inicio__apartado--boton {
+  .inicio__apartado--boton {
     margin-left: 76px;
     width: 200px;
     height: 32px;
@@ -417,13 +417,13 @@ $colorComplementario2: #e3b505;
     }
   }
 
-  #inicio__apartado {
+  .inicio__apartado {
     margin-left: 70px;
     margin-right: 70px;
     padding-left: 0px;
     padding-bottom: 0px;
     display: flex;
-    #inicio__apartado--imagen {
+    .inicio__apartado--imagen {
       display: block;
       width: 183px;
       height: 130px;
@@ -431,32 +431,32 @@ $colorComplementario2: #e3b505;
     }
     div {
       padding-left: 70px;
-      #inicio__apartado--enunciado {
+      .inicio__apartado--enunciado {
         padding-top: 16px;
 
         font-size: 24px;
         line-height: 40px;
       }
-      #inicio__apartado--hr {
+      .inicio__apartado--hr {
         width: 115px;
         margin-bottom: 8px;
       }
-      #inicio__apartado--parrafo {
+      .inicio__apartado--parrafo {
         margin-right: 30px;
 
         font-size: 9px;
         line-height: 12px;
         color: #f2f2f7;
       }
-      #inicio__apartado--formulario {
+      .inicio__apartado--formulario {
         display: inline-flex;
         padding-top: 8px;
         padding-bottom: 16px;
-        #inicio__apartado--input {
+        .inicio__apartado--input {
           height: 24px;
           width: 200px;
         }
-        #inicio__apartado--boton {
+        .inicio__apartado--boton {
           margin-left: 20px;
           margin-right: 40px;
           width: 124px;
@@ -618,37 +618,37 @@ $colorComplementario2: #e3b505;
       }
     }
   }
-  #inicio__apartado {
+  .inicio__apartado {
     margin: 0px 70px 48px 70px;
     padding-left: 0px;
     padding-bottom: 0px;
     display: flex;
-    #inicio__apartado--imagen {
+    .inicio__apartado--imagen {
       display: block;
       width: 330px;
       height: 270px;
     }
-    #inicio__apartado--enunciado {
+    .inicio__apartado--enunciado {
       padding: 48px 30px 8px 0px;
 
       font-size: 30px;
     }
-    #inicio__apartado--parrafo {
+    .inicio__apartado--parrafo {
       margin-right: 30px;
       font-size: 16px;
       line-height: 22px;
 
       color: #f2f2f7;
     }
-    #inicio__apartado--formulario {
+    .inicio__apartado--formulario {
       display: inline-flex;
       padding-top: 20px;
       padding-bottom: 44px;
-      #inicio__apartado--input {
+      .inicio__apartado--input {
         height: 31px;
         max-width: 420px;
       }
-      #inicio__apartado--boton {
+      .inicio__apartado--boton {
         margin-left: 20px;
         width: 180px;
       }
