@@ -248,7 +248,7 @@ footer{
   display: flex;
   width: 100%;
   padding: 0rem 1rem;
-  margin: 0 auto;
+  margin: 0;
   overflow: auto;
   scroll-snap-type: x proximity;
   scroll-behavior: smooth;
