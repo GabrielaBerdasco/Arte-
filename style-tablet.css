@@ -130,7 +130,7 @@
     grid-column: 1/7;
     width: 90%;
     height: 230px;
-    margin: 2rem auto;
+    margin: 2rem auto 1rem auto;
   }
   .--premium-info{
     padding: 1.5rem 3rem;
@@ -156,9 +156,10 @@
     display: grid;
     grid-gap: .5rem;
     grid-template-columns: 1fr 1fr;
-    margin: 1rem auto;
+    margin: 0 auto 1rem auto;
     justify-items: center;
     padding: 0;
+    overflow: none;
   }
   .--cards-container{
     display: flex;
@@ -166,6 +167,10 @@
     height: 100px;
     margin: 0;
     padding: 4rem 0;
+  }
+  .--cards-container .info-container-premium{
+    width: 90%;
+
   }
 
   .--cards-container .img-container-premium-slide1,

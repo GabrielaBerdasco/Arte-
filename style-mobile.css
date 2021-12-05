@@ -247,26 +247,30 @@ footer{
 .--cards-premium{
   display: flex;
   width: 100%;
-  padding: 3rem 0;
-
-  overscroll-behavior: contain;
+  padding: 0rem 1rem;
+  margin: 0 auto;
+  overflow: auto;
   scroll-snap-type: x proximity;
+  scroll-behavior: smooth;
 }
 .--cards-container{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 500px;
+  width: 100%;
   max-width: 700px;
-  padding: 5rem 0;
-  margin: 0 1rem;
+  padding: 3rem 12rem 3rem 0;
+  margin: 1rem .5rem;
   background-color: #414141;
   scroll-snap-align: center;
 }
+.--cards-container .info-container-premium{
+  width: 110px;
+}
 .--cards-container .info-container-premium h3{
-  width: 85%;
+  width: 190px;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 1.5;
   letter-spacing: .3px;

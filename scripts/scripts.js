@@ -84,6 +84,7 @@ function filterCategoryClick(){
 
 })
 }
+
 filterCategoryClick()
 
 const productPremium = document.querySelector('.salient-products')
@@ -107,19 +108,15 @@ function showPremium(array){
 
       productPremium.appendChild(div_premium)
     }
-
   })
 }
 
 function nextPage(){
-    let nextPageBtn = document.querySelector('.next')    
+    let nextPageBtn = document.querySelector('.next')
     nextPageBtn.addEventListener('click', ()=>{
       (current_page === totalPages) ? nextPageBtn.disabled : ++current_page
-      console.log(current_page);
-      console.log(totalPages);
       displayProducts(arrNew, list_element, rows, current_page)
     })
-
 }
 
 
@@ -130,6 +127,7 @@ function backPage(){
     displayProducts(arrNew, list_element, rows, current_page);
   })
 }
+
 
 function addOption(array){
   let arr =["Todas"]
