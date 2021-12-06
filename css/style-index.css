@@ -2,6 +2,7 @@
   margin-top: 48px;
   margin-bottom: 20px;
   padding: 48px 45px;
+  height: 300px;
   color: #414141;
 }
 
@@ -273,6 +274,7 @@
     display: inline-flex;
     margin: 40px 60px;
     padding: 0px;
+    height: 160px;
   }
   .inicio__carousel .inicio__carousel--imagen {
     display: block;
@@ -483,6 +485,7 @@
     display: inline-flex;
     margin: 48px 70px;
     padding: 0px;
+    height: 320px;
   }
   .inicio__carousel .inicio__carousel--imagen {
     display: block;
