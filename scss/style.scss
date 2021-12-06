@@ -28,6 +28,18 @@ header {
   }
 }
 
+.botonFlotante{
+  position: sticky;
+  bottom: 20px;
+  left: 95%;
+  z-index: 15;
+  width: 50px;
+  height: 50px;
+
+  background-color: #479db5;
+  border-radius: 39%;
+}
+
 footer {
   /* height: 374px; */
   width: auto;
