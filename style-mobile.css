@@ -222,9 +222,10 @@ footer{
   display: flex;
   justify-content: center;
   background-color: var(--colorSecundario);
+  margin-top: 2rem;
 }
 .--premium-info{
-  padding: 5rem;
+  padding: 4rem;
 
 }
 .--premium-info h2,
