@@ -68,7 +68,7 @@ function filterCategoryClick(){
   let options = document.querySelectorAll('.option_cat')
 
   options.forEach((items) => {
-    console.log(items);
+  
     items.addEventListener('click', ()=>{
       arrNew = []
       productos.forEach((item) => {
